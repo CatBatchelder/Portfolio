@@ -173,6 +173,17 @@
 		"opt": 0,
 		"q": 100
 		},
+	"/deploy/img/portfolio/branding.jpg": {
+		"ft": 16384,
+		"iS": 61809,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/portfolio/branding.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"/deploy/img/portfolio/caslon.jpg": {
 		"ft": 16384,
 		"iS": 35512,
@@ -250,6 +261,17 @@
 		"opt": 0,
 		"q": 100
 		},
+	"/deploy/img/portfolio/Illustration.jpg": {
+		"ft": 16384,
+		"iS": 42315,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/portfolio/Illustration.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"/deploy/img/portfolio/md1.jpg": {
 		"ft": 16384,
 		"iS": 48912,
@@ -316,6 +338,28 @@
 		"opt": 0,
 		"q": 100
 		},
+	"/deploy/img/portfolio/photography.jpg": {
+		"ft": 16384,
+		"iS": 79684,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/portfolio/photography.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/deploy/img/portfolio/print.jpg": {
+		"ft": 16384,
+		"iS": 28407,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/portfolio/print.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"/deploy/img/portfolio/r1.jpg": {
 		"ft": 16384,
 		"iS": 29051,
@@ -377,6 +421,28 @@
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/deploy/img/portfolio/s3.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/deploy/img/portfolio/typography.jpg": {
+		"ft": 16384,
+		"iS": 55934,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/portfolio/typography.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/deploy/img/portfolio/web-design.jpg": {
+		"ft": 16384,
+		"iS": 65279,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/portfolio/web-design.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -455,7 +521,7 @@
 	"/dev/js/scripts.js": {
 		"bF": 0,
 		"ft": 64,
-		"ma": 0,
+		"ma": 1,
 		"mi": 1,
 		"oA": 0,
 		"oAP": "/deploy/js/scripts-min.js",
