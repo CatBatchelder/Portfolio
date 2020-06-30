@@ -472,6 +472,75 @@ header div #burger-container {
 /* =============
     Footer
 ============= */
+footer {
+  background-color: #743646;
+}
+footer div {
+  display: grid;
+  grid-template-columns: 20% auto 20%;
+}
+footer div ul {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+footer div ul li {
+  color: white;
+  padding: 5px;
+}
+footer div ul li a:link,
+footer div ul li a:visited {
+  color: #fff;
+  font-size: 1.25rem;
+}
+footer div ul li a:link:hover, footer div ul li a:link:active,
+footer div ul li a:visited:hover,
+footer div ul li a:visited:active {
+  color: #6A8AA7;
+}
+@media (min-width: 768px) {
+  footer div ul li a:link,
+footer div ul li a:visited {
+    font-size: 1.5625rem;
+    padding: 15px;
+  }
+}
+@media (min-width: 1025px) {
+  footer div ul li a:link,
+footer div ul li a:visited {
+    font-size: 1.875rem;
+  }
+}
+footer div #logo-container {
+  padding: 5px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+footer div #logo-container img {
+  width: 30px;
+}
+@media (min-width: 768px) {
+  footer div #logo-container img {
+    width: initial;
+  }
+}
+footer div #footer-copyright {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+footer div #footer-copyright p {
+  color: white;
+  font-size: 0.625rem;
+  padding-bottom: 10px;
+}
+@media (min-width: 768px) {
+  footer div #footer-copyright p {
+    font-size: 0.9375rem;
+  }
+}
+
 /* =============
     Section 1
 ============= */
