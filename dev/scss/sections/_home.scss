@@ -1,0 +1,160 @@
+/* =============
+    hero
+============= */
+
+#home-hero {
+    img {
+        object-fit: cover;
+        width: 100vw;
+    }
+}
+
+/* =============
+    Illustrations
+============= */
+
+#home-illustrations {
+    div {
+        h1 {
+            text-align: center;
+            font-size: rem-calc(30);
+            color: $dark-blue;
+            font-family: 'Halant', serif;
+            font-weight: 500;
+
+            @include md {
+                font-size: rem-calc(40);
+            }
+
+            @include lg {
+                font-size: rem-calc(48);
+            }
+        }
+
+        ul {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            grid-template-rows: repeat(3, 200px);
+            gap: 20px;
+            grid-template-areas:
+                "g1 g2"
+                "g3 g4"
+                "g5 g6";
+
+            @include md {
+                grid-template-columns: repeat(3, 1fr);
+                grid-template-rows: repeat(2, 200px);
+                grid-template-areas:
+                    "g1 g2 g3"
+                    "g4 g5 g6";
+            }
+
+            @include lg {
+                grid-template-columns: repeat(6, 1fr);
+                grid-template-rows: repeat(1, 200px);
+                grid-template-areas:
+                    "g1 g2 g3 g4 g5 g6";
+            }
+
+            li {
+                align-items: center;
+                display: flex;
+                justify-content: center;
+                // border: 1px red solid;
+                display: grid;
+                grid-template-rows: 80% auto;
+
+                h3 {
+                    text-align: center;
+                    color: $light-blue;
+                    font-size: rem-calc(20);
+                    font-weight: 400;
+
+                    @include md {
+                        font-size: rem-calc(24);
+                    }
+                }
+
+            }
+
+            li:nth-child(1) {
+                grid-area: g1;
+
+            }
+
+            li:nth-child(2) {
+                grid-area: g2;
+            }
+
+            li:nth-child(3) {
+                grid-area: g3;
+            }
+
+            li:nth-child(4) {
+                grid-area: g4;
+            }
+
+            li:nth-child(5) {
+                grid-area: g5;
+            }
+
+            li:nth-child(6) {
+                grid-area: g6;
+            }
+
+        }
+    }
+}
+
+
+/* =============
+    Contact
+============= */
+
+#home-contact {
+    background-color: $pink;
+    padding: 30px 0;
+    margin-bottom: 0;
+
+    @include md {
+        padding: 40px 0;
+    }
+
+    @include lg {
+        padding: 50px 0;
+    }
+
+    h2 {
+        text-align: center;
+        font-family: 'Halant', serif;
+        font-weight: 500;
+        font-size: rem-calc(30);
+        color: white;
+
+        @include md {
+            font-size: rem-calc(40)
+        }
+
+        @include lg {
+            font-size: rem-calc(48);
+        }
+    }
+
+    p {
+        text-align: center;
+        color: white;
+
+        a:link,
+        a:visited {
+            color: $white;
+            text-decoration: none;
+
+            &:hover,
+            &:active {
+                color: $light-blue;
+            }
+        }
+    }
+
+
+}

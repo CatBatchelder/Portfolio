@@ -140,12 +140,23 @@
 		"oT": 1,
 		"q": 100
 		},
-	"/deploy/img/home/hero.jpg": {
+	"/deploy/img/home/hero_2.jpg": {
 		"ft": 16384,
-		"iS": 201756,
+		"iS": 552073,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "/deploy/img/home/hero.jpg",
+		"oAP": "/deploy/img/home/hero_2.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/deploy/img/home/hero_22.jpg": {
+		"ft": 16384,
+		"iS": 315329,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/home/hero_22.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -486,6 +497,30 @@
 		"oAP": "/design/Portfolio.sketch",
 		"oF": 0
 		},
+	"/dev/about.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/deploy/about.html",
+		"oF": 2
+		},
+	"/dev/content/about-content.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/dev/content/about-content.html",
+		"oF": 1
+		},
+	"/dev/content/home-content.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/dev/content/home-content.html",
+		"oF": 0
+		},
 	"/dev/global/footer.kit": {
 		"cB": 0,
 		"ft": 2048,
@@ -667,7 +702,7 @@
 		"oS": 0,
 		"sct": 0
 		},
-	"/dev/scss/sections/_section-1.scss": {
+	"/dev/scss/sections/_about.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -675,7 +710,20 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "/dev/scss/sections/_section-1.css",
+		"oAP": "/dev/scss/sections/_about.css",
+		"oF": 0,
+		"oS": 0,
+		"sct": 0
+		},
+	"/dev/scss/sections/_home.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"ec": 1,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/dev/scss/sections/_home.css",
 		"oF": 0,
 		"oS": 0,
 		"sct": 0
@@ -692,6 +740,14 @@
 		"oF": 2,
 		"oS": 0,
 		"sct": 0
+		},
+	"/dev/template.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/dev/template.html",
+		"oF": 1
 		}
 	},
 "hooks": [

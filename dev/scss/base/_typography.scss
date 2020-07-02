@@ -5,20 +5,16 @@
 // font-family: 'Halant', serif;
 // font-family: 'Nunito Sans', sans-serif;
 
-body{
-    font-family: 'Montserrat', sans-serif;
+body {
+    font-family: 'Nunito Sans', sans-serif;
 }
 
-h1,h2,h3,h4{
-    margin: 0;
-    padding: 0;
-}
+.content-text {
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 400;
+    font-size: rem-calc(20);
 
-p{
-    margin: 0;
-    padding: 0;
-}
-
-.section-title{
-    font-weight: 300;
+    @include md {
+        font-size: rem-calc(24);
+    }
 }
