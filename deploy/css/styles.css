@@ -881,3 +881,14 @@ footer div #footer-copyright p {
   color: #743646;
   font-weight: 300;
 }
+
+/* =============
+    title
+============= */
+/* =============
+    text
+============= */
+#instagram-text div p {
+  color: #743646;
+  text-align: center;
+}

@@ -548,6 +548,14 @@
 		"oAP": "/dev/content/home-content.html",
 		"oF": 0
 		},
+	"/dev/content/instagram-content.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/dev/content/instagram-content.html",
+		"oF": 1
+		},
 	"/dev/global/footer.kit": {
 		"cB": 0,
 		"ft": 2048,
@@ -586,6 +594,14 @@
 		"hM": 0,
 		"oA": 0,
 		"oAP": "/deploy/index.html",
+		"oF": 2
+		},
+	"/dev/instagram.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/deploy/instagram.html",
 		"oF": 2
 		},
 	"/dev/js/scripts.js": {
@@ -751,6 +767,19 @@
 		"ma": 0,
 		"oA": 1,
 		"oAP": "/dev/scss/sections/_home.css",
+		"oF": 0,
+		"oS": 0,
+		"sct": 0
+		},
+	"/dev/scss/sections/_instagram.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"ec": 1,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/dev/scss/sections/_instagram.css",
 		"oF": 0,
 		"oS": 0,
 		"sct": 0
