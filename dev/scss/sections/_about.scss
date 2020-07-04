@@ -1,3 +1,176 @@
 /* =============
+    title
+============= */
+
+#about-title {}
+
+/* =============
+    bio
+============= */
+
+#about-bio {
+    div {
+        display: grid;
+        grid-template-rows: repeat(2, 1fr);
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-areas: "pic""text";
+
+        @include md {
+            grid-template-rows: repeat(1, 1fr);
+            grid-template-columns: 40% auto;
+            grid-template-areas: "pic text";
+        }
+
+        aside {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            img {
+                grid-area: pic;
+
+            }
+        }
+
+        article {
+            grid-area: text;
+
+            @include md {
+                margin-top: 40px;
+            }
+
+            @include lg {
+                padding: 50px;
+            }
+
+            p {
+                text-align: center;
+
+                @include md {
+                    text-align: justify;
+                }
+            }
+
+            div {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+        }
+    }
+}
+
+/* =============
+    story
+============= */
+
+#about-story{
+
+    background-color: $light-pink;
+    padding: 20px 10px;
+    margin-bottom: 0;
+
+    @include md{
+    padding: 30px;
+    }
+
+    div{
+        @include md{
+        display: grid;
+        grid-template-columns: 8% auto;
+        grid-template-areas: "title paragraph";
+        }
+        
+        h1{
+            text-align: center;
+            font-family: 'Halant', serif;
+            font-weight: 500;
+            color: $dark-blue;
+            font-size: rem-calc(30);
+
+            @include md{
+                writing-mode: vertical-rl;
+                text-orientation: initial;
+                transform: rotate(180deg);
+                grid-area: title;
+                letter-spacing: rem-calc(11.5);
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                font-size: rem-calc(34);
+            }
+
+        }
+        
+        p{
+            text-align: justify;
+            color: $red;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            @include md{
+                grid-area: paragraph;
+            }
+        }
+    }
+}
+
+/* =============
     hero
 ============= */
+
+#about-hero {
+    img {
+        object-fit: cover;
+        width: 100vw;
+    }
+}
+
+/* =============
+    Bullets
+============= */
+
+#about-bullets{
+    
+    div{
+        ul{
+            @include md{
+                display: grid;
+            grid-template-columns: 3;
+            grid-template-areas: "1 2 3";
+            }
+
+            li{
+                display: grid;
+                grid-template-columns: 40% auto;
+                grid-template-areas: "img type";
+
+                @include md{
+                    grid-template-columns: 30% auto;
+                    display: flex;
+                justify-content: center;
+                align-items: center;
+                }
+
+                img{
+                    grid-area: img;
+                    margin-left: 30px;
+
+                    @include md{
+                        margin-left: 0;
+                        margin: 30px;
+                    }
+                }
+    
+                h3{
+                    grid-area: type;
+                    color: $red;
+                    font-weight: 300;
+
+                }
+            }
+            
+        }
+    }
+}

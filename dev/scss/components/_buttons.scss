@@ -1,3 +1,32 @@
 /* =============
     Buttons
 ============= */
+
+.pink-button{
+    background-color: $light-pink;
+    color: $red;
+    border-radius: 8px;
+    font-weight: 400;
+    font-size: rem-calc(18);
+    padding: 13px 20px;
+    // display: inline-block;
+    text-decoration: none;
+
+    // display: flex;
+    // align-items: center;
+    // justify-content: center;
+
+    @include md{
+        font-size: rem-calc(20);
+        padding: 14px 35px;
+    }
+
+    @include lg{
+        font-size: rem-calc(22);
+        padding: 16px 40px;
+    }
+
+    &:hover{
+        background-color: $pink;
+    }
+}
