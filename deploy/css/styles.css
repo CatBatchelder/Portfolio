@@ -426,6 +426,24 @@ body {
   }
 }
 
+.sub-text {
+  font-family: "Halant", serif;
+  font-size: 1.5rem;
+  text-align: center;
+  font-weight: 500;
+  color: #743646;
+}
+@media (min-width: 768px) {
+  .sub-text {
+    font-size: 1.875rem;
+  }
+}
+@media (min-width: 1025px) {
+  .sub-text {
+    font-size: 2.25rem;
+  }
+}
+
 /* =============
     Buttons
 ============= */
@@ -891,4 +909,70 @@ footer div #footer-copyright p {
 #instagram-text div p {
   color: #743646;
   text-align: center;
+}
+
+/* =============
+    title
+============= */
+/* =============
+    images
+============= */
+#portfolio-img {
+  margin-bottom: 0;
+}
+#portfolio-img ul li img {
+  object-fit: cover;
+  width: 100vw;
+}
+
+/* =============
+    title
+============= */
+/* =============
+    Ron Jon
+============= */
+#branding-ronjon div ul {
+  display: grid;
+  grid-template-columns: 100%;
+  gap: 20px;
+}
+@media (min-width: 768px) {
+  #branding-ronjon div ul {
+    grid-template-columns: 50% auto;
+    grid-template-areas: "logo logo" "card van" "video video";
+  }
+}
+#branding-ronjon div ul li img {
+  object-fit: cover;
+  width: 100%;
+  height: auto;
+}
+#branding-ronjon div ul li video {
+  width: 100% !important;
+  height: auto !important;
+}
+@media (min-width: 1025px) {
+  #branding-ronjon div ul li video {
+    width: 75%;
+  }
+}
+@media (min-width: 768px) {
+  #branding-ronjon div ul li:nth-child(1) {
+    grid-area: logo;
+  }
+}
+@media (min-width: 768px) {
+  #branding-ronjon div ul li:nth-child(2) {
+    grid-area: card;
+  }
+}
+@media (min-width: 768px) {
+  #branding-ronjon div ul li:nth-child(3) {
+    grid-area: van;
+  }
+}
+@media (min-width: 768px) {
+  #branding-ronjon div ul li:nth-child(4) {
+    grid-area: video;
+  }
 }

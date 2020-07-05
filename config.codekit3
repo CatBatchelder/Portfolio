@@ -17,6 +17,14 @@
 		"oAP": "/deploy/about.html",
 		"oF": 0
 		},
+	"/deploy/branding.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/deploy/branding.html",
+		"oF": 0
+		},
 	"/deploy/css/styles.css": {
 		"aP": 1,
 		"bl": 0,
@@ -409,12 +417,34 @@
 		"opt": 0,
 		"q": 100
 		},
+	"/deploy/img/portfolio/r1_2.jpg": {
+		"ft": 16384,
+		"iS": 66434,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/portfolio/r1_2.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"/deploy/img/portfolio/r2.jpg": {
 		"ft": 16384,
 		"iS": 12481,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/deploy/img/portfolio/r2.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/deploy/img/portfolio/r2_2.jpg": {
+		"ft": 16384,
+		"iS": 9416,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/portfolio/r2_2.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -430,6 +460,14 @@
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
+		},
+	"/deploy/img/portfolio/rjvideo.mp4": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/portfolio/rjvideo.mp4",
+		"oF": 0
 		},
 	"/deploy/img/portfolio/s1.jpg": {
 		"ft": 16384,
@@ -505,6 +543,14 @@
 		"oAP": "/deploy/index.html",
 		"oF": 0
 		},
+	"/deploy/instagram.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/deploy/instagram.html",
+		"oF": 0
+		},
 	"/deploy/js/scripts-min.js": {
 		"bF": 0,
 		"ft": 64,
@@ -515,6 +561,22 @@
 		"oF": 0,
 		"sC": 3,
 		"tS": 0
+		},
+	"/deploy/js/scripts-min.js.map": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/deploy/js/scripts-min.js.map",
+		"oF": 0
+		},
+	"/deploy/portfolio.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/deploy/portfolio.html",
+		"oF": 0
 		},
 	"/design/Portfolio.sketch": {
 		"cB": 0,
@@ -532,12 +594,28 @@
 		"oAP": "/deploy/about.html",
 		"oF": 2
 		},
+	"/dev/branding.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/deploy/branding.html",
+		"oF": 2
+		},
 	"/dev/content/about-content.kit": {
 		"cB": 0,
 		"ft": 2048,
 		"hM": 0,
 		"oA": 1,
 		"oAP": "/dev/content/about-content.html",
+		"oF": 1
+		},
+	"/dev/content/branding-content.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/dev/content/branding-content.html",
 		"oF": 1
 		},
 	"/dev/content/home-content.kit": {
@@ -554,6 +632,14 @@
 		"hM": 0,
 		"oA": 1,
 		"oAP": "/dev/content/instagram-content.html",
+		"oF": 1
+		},
+	"/dev/content/portfolio-content.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/dev/content/portfolio-content.html",
 		"oF": 1
 		},
 	"/dev/global/footer.kit": {
@@ -604,6 +690,17 @@
 		"oAP": "/deploy/instagram.html",
 		"oF": 2
 		},
+	"/dev/js/fancybox.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "/dev/js/fancybox-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
 	"/dev/js/scripts.js": {
 		"bF": 0,
 		"ft": 64,
@@ -614,6 +711,14 @@
 		"oF": 2,
 		"sC": 3,
 		"tS": 0
+		},
+	"/dev/portfolio.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/deploy/portfolio.html",
+		"oF": 2
 		},
 	"/dev/scss/base/_base.scss": {
 		"aP": 0,
@@ -758,6 +863,19 @@
 		"oS": 0,
 		"sct": 0
 		},
+	"/dev/scss/sections/_branding.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"ec": 1,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/dev/scss/sections/_branding.css",
+		"oF": 0,
+		"oS": 0,
+		"sct": 0
+		},
 	"/dev/scss/sections/_home.scss": {
 		"aP": 0,
 		"bl": 0,
@@ -780,6 +898,19 @@
 		"ma": 0,
 		"oA": 1,
 		"oAP": "/dev/scss/sections/_instagram.css",
+		"oF": 0,
+		"oS": 0,
+		"sct": 0
+		},
+	"/dev/scss/sections/_portfolio.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"ec": 1,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/dev/scss/sections/_portfolio.css",
 		"oF": 0,
 		"oS": 0,
 		"sct": 0
@@ -1253,7 +1384,7 @@
 	"environmentVariablesString": "NODE_ENV:::production",
 	"esLintConfigFileHandlingType": 0,
 	"esLintECMAVersion": 7,
-	"esLintEnvironmentsMask": 1,
+	"esLintEnvironmentsMask": 8193,
 	"esLintRules": {
 		"accessor-pairs": {
 			"active": 0,
@@ -1584,7 +1715,7 @@
 			"optionString": "{'allowParens': true}"
 			},
 		"no-console": {
-			"active": 1,
+			"active": 0,
 			"optionString": "{'allow': ['warn', 'error']}"
 			},
 		"no-const-assign": {

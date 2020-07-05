@@ -1,0 +1,74 @@
+/* =============
+    title
+============= */
+
+#branding-title {}
+
+/* =============
+    Ron Jon
+============= */
+
+#branding-ronjon {
+    div {
+        h2{
+
+        }
+
+        ul{
+            display: grid;
+            grid-template-columns: 100%;
+            gap: 20px;
+
+            @include md{
+                grid-template-columns: 50% auto;
+                grid-template-areas: 
+                "logo logo"
+                "card van"
+                "video video";
+            }
+            
+
+            li{
+                img {
+                    object-fit: cover;
+                    width: 100%;
+                    height: auto;
+                }
+
+                video {
+                    width: 100%    !important;
+                    height: auto   !important;
+
+                    @include lg{
+                        width: 75%;
+                    }
+                  }
+            }
+
+            li:nth-child(1) {
+                @include md{
+                    grid-area: logo;
+                }
+
+            }
+
+            li:nth-child(2) {
+                @include md{
+                    grid-area: card; 
+                }
+            }
+
+            li:nth-child(3) {
+                @include md{
+                    grid-area: van;
+                }
+            }
+
+            li:nth-child(4) {
+                @include md{
+                    grid-area: video;
+                }
+            }
+        }
+    }
+}

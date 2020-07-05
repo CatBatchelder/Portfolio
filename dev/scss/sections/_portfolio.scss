@@ -1,0 +1,21 @@
+/* =============
+    title
+============= */
+
+#portfolio-title {}
+
+/* =============
+    images
+============= */
+
+#portfolio-img {
+    margin-bottom: 0;
+    ul{
+        li{
+            img {
+                object-fit: cover;
+                width: 100vw;
+            }
+        }
+    }
+}
