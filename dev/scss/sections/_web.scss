@@ -1,0 +1,43 @@
+/* =============
+    title
+============= */
+
+#web-title {}
+
+/* =============
+    Annapolis
+============= */
+
+#web-annapolis {
+    div {
+        h2 {}
+
+        aside {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+            img {
+                object-fit: cover;
+                width: 100%;
+                height: auto;
+            }
+        }
+
+        h3{
+            text-align: center;
+            // text-decoration: none;
+            // color: $red;
+            a{
+                text-decoration: none;
+                color: $red;
+            
+        }
+
+        a:hover{
+            color: $pink;
+        }
+    }
+
+    }
+}

@@ -35,6 +35,14 @@
 		"oF": 0,
 		"oS": 3
 		},
+	"/deploy/illustration.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/deploy/illustration.html",
+		"oF": 0
+		},
 	"/deploy/img/about/CatBatchelder-Resume.pdf": {
 		"cB": 0,
 		"ft": 8192,
@@ -626,6 +634,14 @@
 		"oAP": "/dev/content/home-content.html",
 		"oF": 0
 		},
+	"/dev/content/illustration-content.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/dev/content/illustration-content.html",
+		"oF": 1
+		},
 	"/dev/content/instagram-content.kit": {
 		"cB": 0,
 		"ft": 2048,
@@ -640,6 +656,14 @@
 		"hM": 0,
 		"oA": 1,
 		"oAP": "/dev/content/portfolio-content.html",
+		"oF": 1
+		},
+	"/dev/content/web-content.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/dev/content/web-content.html",
 		"oF": 1
 		},
 	"/dev/global/footer.kit": {
@@ -673,6 +697,14 @@
 		"oA": 1,
 		"oAP": "/dev/global/scripts.html",
 		"oF": 0
+		},
+	"/dev/illustration.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/deploy/illustration.html",
+		"oF": 2
 		},
 	"/dev/index.kit": {
 		"cB": 0,
@@ -889,6 +921,19 @@
 		"oS": 0,
 		"sct": 0
 		},
+	"/dev/scss/sections/_illustration.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"ec": 1,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/dev/scss/sections/_illustration.css",
+		"oF": 0,
+		"oS": 0,
+		"sct": 0
+		},
 	"/dev/scss/sections/_instagram.scss": {
 		"aP": 0,
 		"bl": 0,
@@ -915,6 +960,19 @@
 		"oS": 0,
 		"sct": 0
 		},
+	"/dev/scss/sections/_web.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"ec": 1,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/dev/scss/sections/_web.css",
+		"oF": 0,
+		"oS": 0,
+		"sct": 0
+		},
 	"/dev/scss/styles.scss": {
 		"aP": 0,
 		"bl": 0,
@@ -935,6 +993,14 @@
 		"oA": 1,
 		"oAP": "/dev/template.html",
 		"oF": 1
+		},
+	"/dev/web.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/deploy/web.html",
+		"oF": 2
 		}
 	},
 "hooks": [

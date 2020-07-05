@@ -976,3 +976,67 @@ footer div #footer-copyright p {
     grid-area: video;
   }
 }
+
+/* =============
+    title
+============= */
+/* =============
+    Robots
+============= */
+@media (min-width: 768px) {
+  #illustration-robot div ul {
+    display: grid;
+    grid-template-columns: 50% auto;
+  }
+}
+#illustration-robot div ul li {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#illustration-robot div ul li img {
+  object-fit: cover;
+  width: 100%;
+  height: auto;
+}
+
+/* =============
+    Portraits
+============= */
+#illustration-portrait div ul li {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#illustration-portrait div ul li img {
+  object-fit: cover;
+  width: 100%;
+  height: auto;
+}
+
+/* =============
+    title
+============= */
+/* =============
+    Annapolis
+============= */
+#web-annapolis div aside {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#web-annapolis div aside img {
+  object-fit: cover;
+  width: 100%;
+  height: auto;
+}
+#web-annapolis div h3 {
+  text-align: center;
+}
+#web-annapolis div h3 a {
+  text-decoration: none;
+  color: #743646;
+}
+#web-annapolis div h3 a:hover {
+  color: #DC9699;
+}
