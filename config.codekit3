@@ -586,6 +586,14 @@
 		"oAP": "/deploy/portfolio.html",
 		"oF": 0
 		},
+	"/deploy/web.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/deploy/web.html",
+		"oF": 0
+		},
 	"/design/Portfolio.sketch": {
 		"cB": 0,
 		"ft": 8192,
@@ -656,6 +664,14 @@
 		"hM": 0,
 		"oA": 1,
 		"oAP": "/dev/content/portfolio-content.html",
+		"oF": 1
+		},
+	"/dev/content/print-content.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/dev/content/print-content.html",
 		"oF": 1
 		},
 	"/dev/content/web-content.kit": {
@@ -750,6 +766,14 @@
 		"hM": 0,
 		"oA": 0,
 		"oAP": "/deploy/portfolio.html",
+		"oF": 2
+		},
+	"/dev/print.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/deploy/print.html",
 		"oF": 2
 		},
 	"/dev/scss/base/_base.scss": {
@@ -956,6 +980,19 @@
 		"ma": 0,
 		"oA": 1,
 		"oAP": "/dev/scss/sections/_portfolio.css",
+		"oF": 0,
+		"oS": 0,
+		"sct": 0
+		},
+	"/dev/scss/sections/_print.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"ec": 1,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/dev/scss/sections/_print.css",
 		"oF": 0,
 		"oS": 0,
 		"sct": 0

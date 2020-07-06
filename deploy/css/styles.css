@@ -1040,3 +1040,40 @@ footer div #footer-copyright p {
 #web-annapolis div h3 a:hover {
   color: #DC9699;
 }
+
+/* =============
+    title
+============= */
+/* =============
+    Annapolis
+============= */
+#print-annapolis div aside ul {
+  display: grid;
+  grid-template-columns: 50% auto;
+  grid-template-areas: "poster poster" "postcard stamp";
+  gap: 20px;
+}
+@media (min-width: 768px) {
+  #print-annapolis div aside ul {
+    grid-template-areas: "poster postcard" "poster stamp";
+    grid-template-columns: 60% auto;
+  }
+}
+#print-annapolis div aside ul li {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#print-annapolis div aside ul li img {
+  width: 100%;
+  object-fit: cover;
+}
+#print-annapolis div aside ul li:nth-child(1) {
+  grid-area: poster;
+}
+#print-annapolis div aside ul li:nth-child(2) {
+  grid-area: postcard;
+}
+#print-annapolis div aside ul li:nth-child(3) {
+  grid-area: stamp;
+}

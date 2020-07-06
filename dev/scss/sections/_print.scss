@@ -1,0 +1,57 @@
+/* =============
+    title
+============= */
+
+#print-title {}
+
+/* =============
+    Annapolis
+============= */
+
+#print-annapolis {
+    div {
+        h2 {}
+
+        aside {
+            ul {
+                display: grid;
+                grid-template-columns: 50% auto;
+                grid-template-areas:
+                    "poster poster"
+                    "postcard stamp";
+                gap: 20px;
+
+                @include md{
+                    grid-template-areas:
+                    "poster postcard"
+                    "poster stamp";
+                    grid-template-columns: 60% auto;
+                }
+
+                li {
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+
+                    img {
+                        width: 100%;
+                        object-fit: cover;
+                    }
+                }
+
+                li:nth-child(1) {
+                    grid-area: poster;
+
+                }
+
+                li:nth-child(2) {
+                    grid-area: postcard;
+                }
+
+                li:nth-child(3) {
+                    grid-area: stamp;
+                }
+            }
+        }
+    }
+}
