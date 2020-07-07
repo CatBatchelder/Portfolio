@@ -1,0 +1,81 @@
+/* =============
+    Portraits
+============= */
+
+#photo-portrait {
+    @include md {
+        display: grid;
+        grid-template-columns: 20% auto 20%;
+        grid-template-areas: ". slider .";
+    }
+
+    @include lg {
+        grid-template-columns: 25% auto 25%;
+    }
+
+    div {
+        @include md {
+            grid-area: slider;
+        }  
+
+        section {
+        
+
+            .my-slider {
+                div {
+                    img {
+                        object-fit: cover;
+                        width: 100%;
+                        object-position: center;
+                    }
+                }
+            }
+
+            .tns-controls [aria-controls] {
+                color: $red;
+                background: $pink;
+            }
+        }
+    }
+}
+
+/* =============
+    Organic and Geometric
+============= */
+
+#photo-org {
+    @include md {
+        display: grid;
+        grid-template-columns: 20% auto 20%;
+        grid-template-areas: ". org .";
+    }
+
+    @include lg {
+        grid-template-columns: 25% auto 25%;
+    }
+
+    div {
+        @include md {
+            grid-area: org;
+        }  
+
+        section {
+        
+
+            .my-slider {
+                div {
+                    img {
+                        object-fit: cover;
+                        width: 100%;
+                        object-position: center;
+                    }
+                }
+            }
+
+            .tns-controls [aria-controls] {
+                color: $red;
+                background: $pink;
+            }
+        }
+    }
+}

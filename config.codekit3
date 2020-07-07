@@ -249,34 +249,45 @@
 		"opt": 0,
 		"q": 100
 		},
-	"/deploy/img/portfolio/g1.jpg": {
+	"/deploy/img/portfolio/gw1.jpg": {
 		"ft": 16384,
-		"iS": 11070,
+		"iS": 188382,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "/deploy/img/portfolio/g1.jpg",
+		"oAP": "/deploy/img/portfolio/gw1.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"/deploy/img/portfolio/g2.jpg": {
+	"/deploy/img/portfolio/gw2.jpg": {
 		"ft": 16384,
-		"iS": 10643,
+		"iS": 483911,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "/deploy/img/portfolio/g2.jpg",
+		"oAP": "/deploy/img/portfolio/gw2.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"/deploy/img/portfolio/g3.jpg": {
+	"/deploy/img/portfolio/gw3.jpg": {
 		"ft": 16384,
-		"iS": 19646,
+		"iS": 196200,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "/deploy/img/portfolio/g3.jpg",
+		"oAP": "/deploy/img/portfolio/gw3.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/deploy/img/portfolio/gw4.jpg": {
+		"ft": 16384,
+		"iS": 470741,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/portfolio/gw4.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -359,34 +370,254 @@
 		"opt": 0,
 		"q": 100
 		},
-	"/deploy/img/portfolio/p1.jpg": {
+	"/deploy/img/portfolio/photo/org_1.jpeg": {
 		"ft": 16384,
-		"iS": 17244,
+		"iS": 2709935,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "/deploy/img/portfolio/p1.jpg",
+		"oAP": "/deploy/img/portfolio/photo/org_1.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"/deploy/img/portfolio/p2.jpg": {
+	"/deploy/img/portfolio/photo/org_1.tif": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/portfolio/photo/org_1.tif",
+		"oF": 0
+		},
+	"/deploy/img/portfolio/photo/org_2.jpeg": {
 		"ft": 16384,
-		"iS": 34368,
+		"iS": 5263506,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "/deploy/img/portfolio/p2.jpg",
+		"oAP": "/deploy/img/portfolio/photo/org_2.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"/deploy/img/portfolio/p3.jpg": {
+	"/deploy/img/portfolio/photo/org_2.tif": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/portfolio/photo/org_2.tif",
+		"oF": 0
+		},
+	"/deploy/img/portfolio/photo/org_3.jpeg": {
 		"ft": 16384,
-		"iS": 15461,
+		"iS": 2357729,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "/deploy/img/portfolio/p3.jpg",
+		"oAP": "/deploy/img/portfolio/photo/org_3.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/deploy/img/portfolio/photo/org_3.tif": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/portfolio/photo/org_3.tif",
+		"oF": 0
+		},
+	"/deploy/img/portfolio/photo/org_4.jpeg": {
+		"ft": 16384,
+		"iS": 903245,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/portfolio/photo/org_4.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/deploy/img/portfolio/photo/org_4.tif": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/portfolio/photo/org_4.tif",
+		"oF": 0
+		},
+	"/deploy/img/portfolio/photo/portrait_0.JPG": {
+		"ft": 16384,
+		"iS": 8312969,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/portfolio/photo/portrait_0.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/deploy/img/portfolio/photo/portrait_1.JPG": {
+		"ft": 16384,
+		"iS": 6442285,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/portfolio/photo/portrait_1.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/deploy/img/portfolio/photo/portrait_10.JPG": {
+		"ft": 16384,
+		"iS": 7333444,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/portfolio/photo/portrait_10.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/deploy/img/portfolio/photo/portrait_2.JPG": {
+		"ft": 16384,
+		"iS": 5925122,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/portfolio/photo/portrait_2.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/deploy/img/portfolio/photo/portrait_2.tif": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/portfolio/photo/portrait_2.tif",
+		"oF": 0
+		},
+	"/deploy/img/portfolio/photo/portrait_3.JPG": {
+		"ft": 16384,
+		"iS": 8839281,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/portfolio/photo/portrait_3.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/deploy/img/portfolio/photo/portrait_3.tif": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/portfolio/photo/portrait_3.tif",
+		"oF": 0
+		},
+	"/deploy/img/portfolio/photo/portrait_4.JPG": {
+		"ft": 16384,
+		"iS": 7539376,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/portfolio/photo/portrait_4.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/deploy/img/portfolio/photo/portrait_4.tif": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/portfolio/photo/portrait_4.tif",
+		"oF": 0
+		},
+	"/deploy/img/portfolio/photo/portrait_5.JPG": {
+		"ft": 16384,
+		"iS": 7358313,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/portfolio/photo/portrait_5.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/deploy/img/portfolio/photo/portrait_5.tif": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/portfolio/photo/portrait_5.tif",
+		"oF": 0
+		},
+	"/deploy/img/portfolio/photo/portrait_6.JPG": {
+		"ft": 16384,
+		"iS": 10765157,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/portfolio/photo/portrait_6.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/deploy/img/portfolio/photo/portrait_6.tif": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/portfolio/photo/portrait_6.tif",
+		"oF": 0
+		},
+	"/deploy/img/portfolio/photo/portrait_7.JPG": {
+		"ft": 16384,
+		"iS": 6084991,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/portfolio/photo/portrait_7.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/deploy/img/portfolio/photo/portrait_7.tif": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/portfolio/photo/portrait_7.tif",
+		"oF": 0
+		},
+	"/deploy/img/portfolio/photo/portrait_8.JPG": {
+		"ft": 16384,
+		"iS": 8773442,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/portfolio/photo/portrait_8.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/deploy/img/portfolio/photo/portrait_8.tif": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/portfolio/photo/portrait_8.tif",
+		"oF": 0
+		},
+	"/deploy/img/portfolio/photo/portrait_9.JPG": {
+		"ft": 16384,
+		"iS": 7453059,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/portfolio/photo/portrait_9.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -578,12 +809,36 @@
 		"oAP": "/deploy/js/scripts-min.js.map",
 		"oF": 0
 		},
+	"/deploy/photo.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/deploy/photo.html",
+		"oF": 0
+		},
 	"/deploy/portfolio.html": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
 		"oA": 0,
 		"oAP": "/deploy/portfolio.html",
+		"oF": 0
+		},
+	"/deploy/print.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/deploy/print.html",
+		"oF": 0
+		},
+	"/deploy/type.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/deploy/type.html",
 		"oF": 0
 		},
 	"/deploy/web.html": {
@@ -658,6 +913,14 @@
 		"oAP": "/dev/content/instagram-content.html",
 		"oF": 1
 		},
+	"/dev/content/photo-content.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/dev/content/photo-content.html",
+		"oF": 1
+		},
 	"/dev/content/portfolio-content.kit": {
 		"cB": 0,
 		"ft": 2048,
@@ -672,6 +935,14 @@
 		"hM": 0,
 		"oA": 1,
 		"oAP": "/dev/content/print-content.html",
+		"oF": 1
+		},
+	"/dev/content/type-content.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/dev/content/type-content.html",
 		"oF": 1
 		},
 	"/dev/content/web-content.kit": {
@@ -759,6 +1030,25 @@
 		"oF": 2,
 		"sC": 3,
 		"tS": 0
+		},
+	"/dev/js/tinyslider.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "/dev/js/tinyslider-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"/dev/photo.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/deploy/photo.html",
+		"oF": 2
 		},
 	"/dev/portfolio.kit": {
 		"cB": 0,
@@ -850,6 +1140,19 @@
 		"ma": 0,
 		"oA": 1,
 		"oAP": "/dev/scss/components/_navigation.css",
+		"oF": 0,
+		"oS": 0,
+		"sct": 0
+		},
+	"/dev/scss/components/_tinyslider.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"ec": 1,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/dev/scss/components/_tinyslider.css",
 		"oF": 0,
 		"oS": 0,
 		"sct": 0
@@ -971,6 +1274,19 @@
 		"oS": 0,
 		"sct": 0
 		},
+	"/dev/scss/sections/_photo.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"ec": 1,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/dev/scss/sections/_photo.css",
+		"oF": 0,
+		"oS": 0,
+		"sct": 0
+		},
 	"/dev/scss/sections/_portfolio.scss": {
 		"aP": 0,
 		"bl": 0,
@@ -993,6 +1309,19 @@
 		"ma": 0,
 		"oA": 1,
 		"oAP": "/dev/scss/sections/_print.css",
+		"oF": 0,
+		"oS": 0,
+		"sct": 0
+		},
+	"/dev/scss/sections/_type.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"ec": 1,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/dev/scss/sections/_type.css",
 		"oF": 0,
 		"oS": 0,
 		"sct": 0
@@ -1030,6 +1359,14 @@
 		"oA": 1,
 		"oAP": "/dev/template.html",
 		"oF": 1
+		},
+	"/dev/type.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/deploy/type.html",
+		"oF": 2
 		},
 	"/dev/web.kit": {
 		"cB": 0,
@@ -2566,7 +2903,7 @@
 	"externalServerAddress": "http://localhost:8888",
 	"gitIgnoreBuildFolder": 1,
 	"hideConfigFile": 0,
-	"jsCheckerReservedNamesString": "",
+	"jsCheckerReservedNamesString": "tns",
 	"jsHintFlags2": {
 		"asi": {
 			"active": 0,

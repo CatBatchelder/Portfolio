@@ -1,0 +1,167 @@
+/* =============
+    title
+============= */
+
+#type-title {}
+
+/* =============
+    Caslon
+============= */
+
+#type-caslon {
+    div {
+        h2 {}
+
+        aside {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            img {
+                object-fit: cover;
+                width: 100%;
+
+            }
+        }
+
+    }
+}
+
+/* =============
+    Global Warming
+============= */
+
+#type-global {
+    @include md {
+        display: grid;
+        grid-template-columns: 20% auto 20%;
+        grid-template-areas: ". slider .";
+    }
+
+    @include lg {
+        grid-template-columns: 25% auto 25%;
+    }
+
+    div {
+        @include md {
+            grid-area: slider;
+        }  
+
+        section {
+        
+
+            .my-slider {
+                div {
+                    img {
+                        object-fit: cover;
+                        width: 100%;
+                        object-position: center;
+                    }
+                }
+            }
+
+            .tns-controls [aria-controls] {
+                color: $red;
+                background: $pink;
+            }
+        }
+    }
+}
+
+/* =============
+    Aesops
+============= */
+
+#type-aesops {
+    div {
+        h2 {}
+
+        section {
+            ul {
+                display: grid;
+                gap: 20px;
+
+                @include md {
+                    grid-template-columns: 50% auto;
+                    grid-template-areas: "front back";
+                }
+
+                li {
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+
+                    img {
+                        object-fit: cover;
+                        width: 100%;
+                    }
+                }
+
+                li:nth-child(1) {
+                    @include md {
+                        grid-area: front;
+                    }
+
+                }
+
+                li:nth-child(2) {
+                    @include md {
+                        grid-area: back;
+                    }
+                }
+            }
+        }
+    }
+}
+
+/* =============
+    Spreads
+============= */
+
+#type-spreads {
+    div {
+        h2 {}
+
+        section {
+            ul {
+                display: grid;
+                gap: 20px;
+
+                @include md {
+                    grid-template-columns: repeat(3, 1fr);
+                    grid-template-areas: "s1 s2 s3";
+                }
+
+                li {
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+
+                    img {
+                        object-fit: cover;
+                        width: 100%;
+                    }
+                }
+
+                li:nth-child(1) {
+                    @include md {
+                        grid-area: s1;
+                    }
+
+                }
+
+                li:nth-child(2) {
+                    @include md {
+                        grid-area: s2;
+                    }
+                }
+
+                li:nth-child(3) {
+                    @include md {
+                        grid-area: s3;
+                    }
+                }
+            }
+        }
+    }
+}
