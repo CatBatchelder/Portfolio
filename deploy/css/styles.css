@@ -1575,3 +1575,108 @@ footer div #footer-copyright p {
   color: #743646;
   background: #DC9699;
 }
+
+/* =============
+    title
+============= */
+/* =============
+    Form
+============= */
+#contact-form {
+  background-color: #394B68;
+}
+@media (min-width: 1025px) {
+  #contact-form {
+    display: grid;
+    grid-template-columns: 25% auto 25%;
+    grid-template-areas: ". content .";
+  }
+}
+@media (min-width: 1025px) {
+  #contact-form div {
+    grid-area: content;
+  }
+}
+#contact-form div div {
+  position: relative;
+  text-align: center;
+}
+#contact-form div div h3 {
+  color: white;
+}
+#contact-form div form section {
+  display: grid;
+  gap: 20px;
+}
+@media (min-width: 768px) {
+  #contact-form div form section {
+    display: grid;
+    grid-template-rows: repeat(4, 1fr);
+    grid-template-areas: "name name name email email email" "comments comments comments comments comments comments" "comments comments comments comments comments comments" ". . submit submit . .";
+    gap: 20px;
+  }
+}
+@media (min-width: 768px) {
+  #contact-form div form section #contact-name {
+    grid-area: name;
+  }
+}
+@media (min-width: 768px) {
+  #contact-form div form section #contact-email {
+    grid-area: email;
+  }
+}
+#contact-form div form section #contact-comments {
+  padding-bottom: 100px;
+}
+@media (min-width: 768px) {
+  #contact-form div form section #contact-comments {
+    grid-area: comments;
+  }
+}
+#contact-form div form section #contact-submit {
+  background-color: #DC9699;
+  color: #743646;
+  margin-top: 20px;
+}
+@media (min-width: 768px) {
+  #contact-form div form section #contact-submit {
+    grid-area: submit;
+  }
+}
+#contact-form div form section input {
+  background-color: #394B68;
+  border: 1px solid #DC9699;
+  border-radius: 8px;
+  color: white;
+  padding: 10px;
+}
+#contact-form div form section ::placeholder {
+  /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: #fff;
+  opacity: 1;
+}
+#contact-form div form section :-ms-input-placeholder {
+  /* Internet Explorer 10-11 */
+  color: #fff;
+}
+#contact-form div form section ::-ms-input-placeholder {
+  /* Microsoft Edge */
+  color: #fff;
+}
+
+/* =============
+    map
+============= */
+#contact-map {
+  background-color: #394B68;
+  padding-top: 60px;
+  padding-bottom: 30px;
+}
+#contact-map div h3 {
+  text-align: center;
+  color: white;
+}
+#contact-map div h3 span {
+  font-weight: 700;
+}

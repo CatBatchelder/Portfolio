@@ -873,6 +873,14 @@
 		"oAP": "/deploy/branding.html",
 		"oF": 2
 		},
+	"/dev/contact.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/deploy/contact.html",
+		"oF": 2
+		},
 	"/dev/content/about-content.kit": {
 		"cB": 0,
 		"ft": 2048,
@@ -887,6 +895,14 @@
 		"hM": 0,
 		"oA": 1,
 		"oAP": "/dev/content/branding-content.html",
+		"oF": 1
+		},
+	"/dev/content/contact-content.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/dev/content/contact-content.html",
 		"oF": 1
 		},
 	"/dev/content/home-content.kit": {
@@ -1231,6 +1247,19 @@
 		"ma": 0,
 		"oA": 1,
 		"oAP": "/dev/scss/sections/_branding.css",
+		"oF": 0,
+		"oS": 0,
+		"sct": 0
+		},
+	"/dev/scss/sections/_contact.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"ec": 1,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/dev/scss/sections/_contact.css",
 		"oF": 0,
 		"oS": 0,
 		"sct": 0
