@@ -1566,7 +1566,7 @@ footer div #footer-copyright p {
     grid-area: org;
   }
 }
-#photo-org div section .my-slider div img {
+#photo-org div section .my-slider-2 div img {
   object-fit: cover;
   width: 100%;
   object-position: center;

@@ -7,7 +7,6 @@ tns({
     //items: 1,
     gutter: 20,
     edgePadding: 50,
-    //controls: false,
     controlsPosition: "bottom",
     navPosition: "bottom"
     //loop: false,
@@ -28,4 +27,12 @@ tns({
     //"edgePadding": 50
     //slideBy: 'page',
     //autoplay: true
+});
+
+tns({
+    container: '.my-slider-2',
+    gutter: 20,
+    edgePadding: 50,
+    controlsPosition: "bottom",
+    navPosition: "bottom"
 });

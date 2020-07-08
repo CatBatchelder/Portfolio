@@ -1,2 +1,2 @@
-$('[data-fancybox="ronjon"]').fancybox({}),tns({container:".my-slider",gutter:20,edgePadding:50,controlsPosition:"bottom",navPosition:"bottom"}),$(document).ready((function(){console.log("change")}));
+$('[data-fancybox="ronjon"]').fancybox({}),tns({container:".my-slider",gutter:20,edgePadding:50,controlsPosition:"bottom",navPosition:"bottom"}),tns({container:".my-slider-2",gutter:20,edgePadding:50,controlsPosition:"bottom",navPosition:"bottom"}),$(document).ready((function(){console.log("change")}));
 //# sourceMappingURL=scripts-min.js.map
