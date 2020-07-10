@@ -2,7 +2,9 @@
     title
 ============= */
 
-#contact-title {}
+#contact-title {
+    padding-bottom: 10px;
+}
 
 /* =============
     Form
@@ -26,15 +28,40 @@
         div {
             position: relative;
             text-align: center;
+            padding-top: 40px;
 
             img {
-                // position: absolute;
-                // top: -60%;
+                position: absolute;
+                top: -30%;
+                left: 40%;
+                margin-bottom: 10px;
+
+                @include md{
+                    top: -40%;
+                    left: 45%;
+                }
+
+                @include lg{
+                    top: -45%;
+                    left: 45%;
+                }
                 // align-items: center;
             }
 
             h3 {
                 color: white;
+                text-align: center;
+
+                a:link,
+                a:visited {
+                    color: $white;
+                    text-decoration: none;
+
+                    &:hover,
+                    &:active {
+                        color: $pink;
+                    }
+                }
             }
         }
 
@@ -127,15 +154,17 @@
     map
 ============= */
 
-#contact-map{
+#contact-map {
     background-color: $dark-blue;
     padding-top: 60px;
     padding-bottom: 30px;
-    div{
-        h3{
+
+    div {
+        h3 {
             text-align: center;
             color: white;
-            span{
+
+            span {
                 font-weight: 700;
             }
         }

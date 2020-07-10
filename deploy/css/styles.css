@@ -493,6 +493,11 @@ textarea {
 /* =============
     Navigation
 ============= */
+.fancybox-caption, .fancybox-infobar, .fancybox-navigation .fancybox-button, .fancybox-toolbar {
+  opacity: 1;
+  visibility: initial;
+}
+
 /* =============
     Tiny Slider
 ============= */
@@ -1579,6 +1584,10 @@ footer div #footer-copyright p {
 /* =============
     title
 ============= */
+#contact-title {
+  padding-bottom: 10px;
+}
+
 /* =============
     Form
 ============= */
@@ -1600,9 +1609,39 @@ footer div #footer-copyright p {
 #contact-form div div {
   position: relative;
   text-align: center;
+  padding-top: 40px;
+}
+#contact-form div div img {
+  position: absolute;
+  top: -30%;
+  left: 40%;
+  margin-bottom: 10px;
+}
+@media (min-width: 768px) {
+  #contact-form div div img {
+    top: -40%;
+    left: 45%;
+  }
+}
+@media (min-width: 1025px) {
+  #contact-form div div img {
+    top: -45%;
+    left: 45%;
+  }
 }
 #contact-form div div h3 {
   color: white;
+  text-align: center;
+}
+#contact-form div div h3 a:link,
+#contact-form div div h3 a:visited {
+  color: #fff;
+  text-decoration: none;
+}
+#contact-form div div h3 a:link:hover, #contact-form div div h3 a:link:active,
+#contact-form div div h3 a:visited:hover,
+#contact-form div div h3 a:visited:active {
+  color: #DC9699;
 }
 #contact-form div form section {
   display: grid;
