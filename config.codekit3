@@ -378,9 +378,9 @@
 		"opt": 0,
 		"q": 100
 		},
-	"/deploy/img/portfolio/photo/org_1.jpeg": {
+	"/deploy/img/portfolio/photo/org_1.jpg": {
 		"ft": 16384,
-		"iS": 2709935,
+		"iS": 39594,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/deploy/img/portfolio/photo/org_1.jpg",
@@ -389,17 +389,9 @@
 		"opt": 0,
 		"q": 100
 		},
-	"/deploy/img/portfolio/photo/org_1.tif": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/deploy/img/portfolio/photo/org_1.tif",
-		"oF": 0
-		},
-	"/deploy/img/portfolio/photo/org_2.jpeg": {
+	"/deploy/img/portfolio/photo/org_2.jpg": {
 		"ft": 16384,
-		"iS": 5263506,
+		"iS": 39319,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/deploy/img/portfolio/photo/org_2.jpg",
@@ -408,17 +400,9 @@
 		"opt": 0,
 		"q": 100
 		},
-	"/deploy/img/portfolio/photo/org_2.tif": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/deploy/img/portfolio/photo/org_2.tif",
-		"oF": 0
-		},
-	"/deploy/img/portfolio/photo/org_3.jpeg": {
+	"/deploy/img/portfolio/photo/org_3.jpg": {
 		"ft": 16384,
-		"iS": 2357729,
+		"iS": 32150,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/deploy/img/portfolio/photo/org_3.jpg",
@@ -427,17 +411,9 @@
 		"opt": 0,
 		"q": 100
 		},
-	"/deploy/img/portfolio/photo/org_3.tif": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/deploy/img/portfolio/photo/org_3.tif",
-		"oF": 0
-		},
-	"/deploy/img/portfolio/photo/org_4.jpeg": {
+	"/deploy/img/portfolio/photo/org_4.jpg": {
 		"ft": 16384,
-		"iS": 903245,
+		"iS": 40442,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/deploy/img/portfolio/photo/org_4.jpg",
@@ -446,186 +422,166 @@
 		"opt": 0,
 		"q": 100
 		},
-	"/deploy/img/portfolio/photo/org_4.tif": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/deploy/img/portfolio/photo/org_4.tif",
-		"oF": 0
-		},
-	"/deploy/img/portfolio/photo/portrait_0.JPG": {
+	"/deploy/img/portfolio/photo/portrait_10_v2.jpg": {
 		"ft": 16384,
-		"iS": 8312969,
+		"iS": 27584,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "/deploy/img/portfolio/photo/portrait_0.jpg",
+		"oAP": "/deploy/img/portfolio/photo/portrait_10_v2.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"/deploy/img/portfolio/photo/portrait_1.JPG": {
+	"/deploy/img/portfolio/photo/Portrait_11.jpg": {
 		"ft": 16384,
-		"iS": 6442285,
+		"iS": 55929,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "/deploy/img/portfolio/photo/portrait_1.jpg",
+		"oAP": "/deploy/img/portfolio/photo/Portrait_11.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"/deploy/img/portfolio/photo/portrait_10.JPG": {
+	"/deploy/img/portfolio/photo/Portrait_12.jpg": {
 		"ft": 16384,
-		"iS": 7333444,
+		"iS": 60780,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "/deploy/img/portfolio/photo/portrait_10.jpg",
+		"oAP": "/deploy/img/portfolio/photo/Portrait_12.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"/deploy/img/portfolio/photo/portrait_2.JPG": {
+	"/deploy/img/portfolio/photo/portrait_13.jpg": {
 		"ft": 16384,
-		"iS": 5925122,
+		"iS": 19410,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "/deploy/img/portfolio/photo/portrait_2.jpg",
+		"oAP": "/deploy/img/portfolio/photo/portrait_13.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"/deploy/img/portfolio/photo/portrait_2.tif": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/deploy/img/portfolio/photo/portrait_2.tif",
-		"oF": 0
-		},
-	"/deploy/img/portfolio/photo/portrait_3.JPG": {
+	"/deploy/img/portfolio/photo/portrait_14.jpg": {
 		"ft": 16384,
-		"iS": 8839281,
+		"iS": 27636,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "/deploy/img/portfolio/photo/portrait_3.jpg",
+		"oAP": "/deploy/img/portfolio/photo/portrait_14.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"/deploy/img/portfolio/photo/portrait_3.tif": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/deploy/img/portfolio/photo/portrait_3.tif",
-		"oF": 0
-		},
-	"/deploy/img/portfolio/photo/portrait_4.JPG": {
+	"/deploy/img/portfolio/photo/portrait_15.jpg": {
 		"ft": 16384,
-		"iS": 7539376,
+		"iS": 45899,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "/deploy/img/portfolio/photo/portrait_4.jpg",
+		"oAP": "/deploy/img/portfolio/photo/portrait_15.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"/deploy/img/portfolio/photo/portrait_4.tif": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/deploy/img/portfolio/photo/portrait_4.tif",
-		"oF": 0
-		},
-	"/deploy/img/portfolio/photo/portrait_5.JPG": {
+	"/deploy/img/portfolio/photo/portrait_1_v2.jpg": {
 		"ft": 16384,
-		"iS": 7358313,
+		"iS": 43760,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "/deploy/img/portfolio/photo/portrait_5.jpg",
+		"oAP": "/deploy/img/portfolio/photo/portrait_1_v2.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"/deploy/img/portfolio/photo/portrait_5.tif": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/deploy/img/portfolio/photo/portrait_5.tif",
-		"oF": 0
-		},
-	"/deploy/img/portfolio/photo/portrait_6.JPG": {
+	"/deploy/img/portfolio/photo/Portrait_2.jpg": {
 		"ft": 16384,
-		"iS": 10765157,
+		"iS": 31515,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "/deploy/img/portfolio/photo/portrait_6.jpg",
+		"oAP": "/deploy/img/portfolio/photo/Portrait_2.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"/deploy/img/portfolio/photo/portrait_6.tif": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/deploy/img/portfolio/photo/portrait_6.tif",
-		"oF": 0
-		},
-	"/deploy/img/portfolio/photo/portrait_7.JPG": {
+	"/deploy/img/portfolio/photo/portrait_3_v2.jpg": {
 		"ft": 16384,
-		"iS": 6084991,
+		"iS": 52626,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "/deploy/img/portfolio/photo/portrait_7.jpg",
+		"oAP": "/deploy/img/portfolio/photo/portrait_3_v2.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"/deploy/img/portfolio/photo/portrait_7.tif": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/deploy/img/portfolio/photo/portrait_7.tif",
-		"oF": 0
-		},
-	"/deploy/img/portfolio/photo/portrait_8.JPG": {
+	"/deploy/img/portfolio/photo/Portrait_4.jpg": {
 		"ft": 16384,
-		"iS": 8773442,
+		"iS": 30894,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "/deploy/img/portfolio/photo/portrait_8.jpg",
+		"oAP": "/deploy/img/portfolio/photo/Portrait_4.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"/deploy/img/portfolio/photo/portrait_8.tif": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/deploy/img/portfolio/photo/portrait_8.tif",
-		"oF": 0
-		},
-	"/deploy/img/portfolio/photo/portrait_9.JPG": {
+	"/deploy/img/portfolio/photo/portrait_5_v2.jpg": {
 		"ft": 16384,
-		"iS": 7453059,
+		"iS": 43716,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "/deploy/img/portfolio/photo/portrait_9.jpg",
+		"oAP": "/deploy/img/portfolio/photo/portrait_5_v2.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/deploy/img/portfolio/photo/portrait_6_v2.jpg": {
+		"ft": 16384,
+		"iS": 107408,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/portfolio/photo/portrait_6_v2.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/deploy/img/portfolio/photo/Portrait_7.jpg": {
+		"ft": 16384,
+		"iS": 27987,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/portfolio/photo/Portrait_7.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/deploy/img/portfolio/photo/Portrait_8.jpg": {
+		"ft": 16384,
+		"iS": 28751,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/portfolio/photo/Portrait_8.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/deploy/img/portfolio/photo/Portrait_9.jpg": {
+		"ft": 16384,
+		"iS": 31227,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/portfolio/photo/Portrait_9.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
