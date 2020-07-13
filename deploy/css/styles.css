@@ -1232,9 +1232,27 @@ footer div #footer-copyright p {
 /* =============
     text
 ============= */
+#instagram-text {
+  margin-bottom: 0;
+}
 #instagram-text div p {
   color: #743646;
   text-align: center;
+}
+
+/* =============
+    feed
+============= */
+#instagram-feed {
+  background-color: #DC9699;
+  margin-bottom: 0;
+  padding-top: 20px;
+}
+#instagram-feed div .referral {
+  display: none !important;
+}
+#instagram-feed div .juicer-ad {
+  display: none !important;
 }
 
 /* =============
@@ -1718,4 +1736,9 @@ footer div #footer-copyright p {
 }
 #contact-map div h3 span {
   font-weight: 700;
+}
+#contact-map div #map {
+  width: 100%;
+  height: 400px;
+  background-color: white;
 }

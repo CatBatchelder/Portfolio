@@ -156,6 +156,7 @@
 
 #contact-map {
     background-color: $dark-blue;
+    // background-color: $pink;
     padding-top: 60px;
     padding-bottom: 30px;
 
@@ -167,6 +168,12 @@
             span {
                 font-weight: 700;
             }
+        }
+
+        #map{
+            width: 100%;
+            height: 400px;
+            background-color: white;
         }
     }
 }
