@@ -111,10 +111,22 @@
                     // width: 50%;
                     margin-top: 20px;
 
+                    // :hover{
+                    //     color: white;
+                    // }
+
                     @include md {
                         grid-area: submit;
                     }
 
+                }
+
+                textarea{
+                    background-color: $dark-blue;
+                    border: 1px solid $pink;
+                    border-radius: 8px;
+                    color: white;
+                    padding: 10px;
                 }
 
                 input {
@@ -174,6 +186,18 @@
             width: 100%;
             height: 400px;
             background-color: white;
+
+            @include md{
+                height: 500px;
+            }
+    
+            @include lg{
+                height: 600px;
+            }
+    
+            @include xl{
+                height: 700px;
+            }
         }
     }
 }
