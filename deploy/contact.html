@@ -23,7 +23,7 @@
     <header class="grid-container">
         <div>
             <section id="logo-container">
-                <img src="img/header:footer/logo.png" alt="catherine mae logo">
+               <a href="index.html"><img src="img/header:footer/logo.png" alt="catherine mae logo"></a>
             </section>
     
             <section id="name-container">
@@ -31,62 +31,72 @@
             </section>
     
             <section id="burger-container">
-                <i class="fas fa-bars"></i>
+                <i class="fas fa-bars" id="burger"></i>
             </section>
         </div>
     
     </header>
+     <nav id="main-nav">
+         
+             <ul>
+                 <li><a href="about.html">About</a></li>
+                 <li><a href="portfolio.html">Portfolio</a></li>
+                 <li><a href="instagram.html">Follow Me</a></li>
+                 <li><a href="contact.html">Contact</a></li>
+             </ul>
+         
+         </nav>
     <section class="content-spacing" id="contact-title">
-            <h1 class="title-text">Contact</h1>
-        </section>
-        
-        <section class=" grid-container" id="contact-form">
-            <div>
-                <div>
-                    <img src="img/contact/headshot.png" alt="Catherine Batchelder Headshot">
-                    <h3 class="content-text">Feel free to contact me on the form below or through my email at: <a
-                            href="mailto:catherinegb10@hotmail.com">catherinegb10@hotmail.com</a> for any inquaries.</h3>
-        
-                </div>
-        
-        
-                <form action="https://formspree.io/xgenplrz" method="POST">
-                    <section>
-                        <input type="text" placeholder="NAME" name="Name" id="contact-name">
-                        <input type="email" placeholder="EMAIL" name="Email" id="contact-email">
-                        <textarea  placeholder="COMMENTS" name="Comments" id="contact-comments"></textarea>
-        
-                        <button id="contact-submit" class="pink-button" type="submit">SUBMIT</button>
-                        
-                    </section>
-        
-                </form>
-            </div>
-        </section>
-        
-        <section class=" grid-container" id="contact-map">
-            <div>
-                <h3 class="content-text"><span>Location:</span> Philadelphia, PA</h3>
-                <div id="map"></div>
-            </div>
-        </section>
+                 <h1 class="title-text">Contact</h1>
+             </section>
+             
+             <section class=" grid-container" id="contact-form">
+                 <div>
+                     <div>
+                         <img src="img/contact/headshot.png" alt="Catherine Batchelder Headshot">
+                         <h3 class="content-text">Feel free to contact me on the form below or through my email at: <a
+                                 href="mailto:catherinegb10@hotmail.com">catherinegb10@hotmail.com</a> for any inquaries.</h3>
+             
+                     </div>
+             
+             
+                     <form action="https://formspree.io/xgenplrz" method="POST">
+                         <section>
+                             <input type="text" placeholder="NAME" name="Name" id="contact-name">
+                             <input type="email" placeholder="EMAIL" name="Email" id="contact-email">
+                             <textarea  placeholder="COMMENTS" name="Comments" id="contact-comments"></textarea>
+             
+                             <button id="contact-submit" class="pink-button" type="submit">SUBMIT</button>
+                             
+                         </section>
+             
+                     </form>
+                 </div>
+             </section>
+             
+             <section class=" grid-container" id="contact-map">
+                 <div>
+                     <h3 class="content-text"><span>Location:</span> Philadelphia, PA</h3>
+                     <div id="map"></div>
+                 </div>
+             </section>
     <footer class="grid-container">
-                <div>
-                    <ul id="footer-links">
-                        <li><a href="https://www.instagram.com/catherinemae.designs/?hl=en"><i class="fab fa-instagram"></a></i></li>
-                        <li><a href="https://www.youtube.com/channel/UCRq3rSYqftRQpFnYjWTx-mQ"><i class="fab fa-youtube"></a></i></li>
-                        <li><a href="https://www.linkedin.com/in/catherine-batchelder-a4b85417b/"><i class="fab fa-linkedin-in"></a></i></li>
-                    </ul>
-            
-                    <section id="logo-container">
-                        <img src="img/header:footer/logo.png" alt="catherine mae logo">
-                    </section>
-            
-                    <section id="footer-copyright">
-                        <p>©catherinemaedesings</p>
-                    </section>
-                </div>
-            </footer>
+                     <div>
+                         <ul id="footer-links">
+                             <li><a href="https://www.instagram.com/catherinemae.designs/?hl=en"><i class="fab fa-instagram"></a></i></li>
+                             <li><a href="https://www.youtube.com/channel/UCRq3rSYqftRQpFnYjWTx-mQ"><i class="fab fa-youtube"></a></i></li>
+                             <li><a href="https://www.linkedin.com/in/catherine-batchelder-a4b85417b/"><i class="fab fa-linkedin-in"></a></i></li>
+                         </ul>
+                 
+                         <section id="logo-container">
+                             <img src="img/header:footer/logo.png" alt="catherine mae logo">
+                         </section>
+                 
+                         <section id="footer-copyright">
+                             <p>©catherinemaedesings</p>
+                         </section>
+                     </div>
+                 </footer>
 
     <script>
         function initMap() {
