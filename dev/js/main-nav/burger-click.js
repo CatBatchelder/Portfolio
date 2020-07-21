@@ -1,7 +1,7 @@
-//adding a listener the burger that will call a function that is defined in the nav-global js file
 
-// $("#burger").on("click", hideShowMainNav);
+// $("#burger").on("click", function(){
+//     console.log("clicked on burger");
+// });
 
-$("#burger").on("click", function(){
-    console.log("clicked on burger");
-});
+// make the burger clickable for the menu
+$("#burger").on("click", hideShowMainNav);

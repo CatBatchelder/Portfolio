@@ -414,10 +414,12 @@ body {
   text-align: center;
   font-weight: 500;
   color: #394B68;
+  margin-top: 100px;
 }
 @media (min-width: 768px) {
   .title-text {
     font-size: 3.75rem;
+    margin-top: 150px;
   }
 }
 @media (min-width: 1025px) {
@@ -1127,6 +1129,15 @@ footer div #footer-copyright p {
 /* =============
     title
 ============= */
+#about-title {
+  margin-top: 100px;
+}
+@media (min-width: 768px) {
+  #about-title {
+    margin-top: 150px;
+  }
+}
+
 /* =============
     bio
 ============= */

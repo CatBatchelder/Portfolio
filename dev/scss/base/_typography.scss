@@ -26,9 +26,11 @@ body {
     text-align: center;
     font-weight: 500;
     color: $dark-blue;
+    margin-top: 100px;
 
     @include md {
         font-size: rem-calc(60);
+        margin-top: 150px;
     }
 
     @include lg {
