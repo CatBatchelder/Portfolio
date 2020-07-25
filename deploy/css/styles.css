@@ -511,6 +511,7 @@ textarea {
   height: 100vh;
   width: 100%;
   z-index: 90;
+  padding: 100px 0;
 }
 #main-nav ul li a:link, #main-nav ul li a:visited {
   color: #DC9699;
@@ -908,11 +909,20 @@ header div #name-container {
   }
 }
 header div #burger-container {
-  font-size: 1.5625rem;
-  color: white;
   display: flex;
   justify-content: flex-end;
   align-items: center;
+}
+header div #burger-container #burger {
+  cursor: pointer;
+  transition: 0.25s;
+}
+header div #burger-container #burger #lines {
+  stroke: white !important;
+  transition: 0.25s;
+}
+header div #burger-container #burger:hover #lines {
+  stroke: #ECC5C4 !important;
 }
 
 /* =============

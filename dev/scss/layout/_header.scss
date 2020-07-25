@@ -43,11 +43,25 @@ width: 100%;
         }
     
         #burger-container{
-            font-size: rem-calc(25);
-            color: white;
             display: flex;
             justify-content: flex-end;
             align-items: center;
+
+            #burger{
+                cursor: pointer;
+                transition: .25s;
+
+                #lines{
+                    stroke: white !important;
+                    transition: .25s;
+                }
+
+                &:hover{
+                    #lines{
+                        stroke: $light-pink !important;
+                    }
+                }
+            }
         }
     }
 }
