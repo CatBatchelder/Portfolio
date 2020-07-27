@@ -511,9 +511,61 @@ textarea {
   height: 100vh;
   width: 100%;
   z-index: 90;
-  padding: 100px 0;
 }
-#main-nav ul li a:link, #main-nav ul li a:visited {
+@media (min-width: 768px) {
+  #main-nav {
+    grid-template-columns: 50% auto;
+    grid-template-areas: "logo links";
+  }
+}
+#main-nav #nav-logo {
+  display: none;
+}
+@media (min-width: 768px) {
+  #main-nav #nav-logo {
+    grid-area: logo;
+    display: grid;
+    place-items: center;
+  }
+}
+#main-nav #nav-logo h1 {
+  font-family: "Halant", serif;
+  font-size: 1.875rem;
+  text-align: center;
+  font-weight: 500;
+  color: #fff;
+}
+@media (min-width: 768px) {
+  #main-nav #nav-logo h1 {
+    font-size: 2.8125rem;
+  }
+}
+@media (min-width: 1025px) {
+  #main-nav #nav-logo h1 {
+    font-size: 2.8125rem;
+  }
+}
+#main-nav #nav-links {
+  place-items: center;
+  display: flex;
+  align-items: center;
+}
+@media (min-width: 768px) {
+  #main-nav #nav-links {
+    grid-area: links;
+  }
+}
+#main-nav #nav-links ul li img {
+  padding-right: 20px;
+  vertical-align: -50%;
+}
+@media (min-width: 1025px) {
+  #main-nav #nav-links ul li img {
+    vertical-align: 0%;
+  }
+}
+#main-nav #nav-links ul li a:link,
+#main-nav #nav-links ul li a:visited {
   color: #DC9699;
   text-decoration: none;
   display: inline-block;
@@ -523,21 +575,26 @@ textarea {
   width: 100%;
 }
 @media (min-width: 768px) {
-  #main-nav ul li a:link, #main-nav ul li a:visited {
+  #main-nav #nav-links ul li a:link,
+#main-nav #nav-links ul li a:visited {
     font-size: 2.5rem;
   }
 }
 @media (min-width: 1025px) {
-  #main-nav ul li a:link, #main-nav ul li a:visited {
+  #main-nav #nav-links ul li a:link,
+#main-nav #nav-links ul li a:visited {
     font-size: 3.125rem;
   }
 }
 @media (min-width: 1440px) {
-  #main-nav ul li a:link, #main-nav ul li a:visited {
+  #main-nav #nav-links ul li a:link,
+#main-nav #nav-links ul li a:visited {
     font-size: 3.75rem;
   }
 }
-#main-nav ul li a:link:hover, #main-nav ul li a:link:active, #main-nav ul li a:visited:hover, #main-nav ul li a:visited:active {
+#main-nav #nav-links ul li a:link:hover, #main-nav #nav-links ul li a:link:active,
+#main-nav #nav-links ul li a:visited:hover,
+#main-nav #nav-links ul li a:visited:active {
   background-color: #743646;
   color: #fff;
   text-decoration: none;

@@ -125,6 +125,38 @@
 		"oT": 1,
 		"q": 100
 		},
+	"/deploy/img/header:footer/logo_2.png": {
+		"ft": 32768,
+		"iS": 9321,
+		"oA": 0,
+		"oAP": "/deploy/img/header:footer/logo_2.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/deploy/img/header:footer/star.png": {
+		"ft": 32768,
+		"iS": 2461,
+		"oA": 0,
+		"oAP": "/deploy/img/header:footer/star.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/deploy/img/header:footer/star.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/deploy/img/header:footer/star.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
 	"/deploy/img/home/g1.png": {
 		"ft": 32768,
 		"iS": 1276,
