@@ -25,6 +25,8 @@ function hideShowMainNav() {
     if (canYouSeeTheMenu === false) {
         console.log("show me the menu")
         canYouSeeTheMenu = true;
+        //trigger the arrow
+        // arrowDirection();
         //turn the burger into x
         animateBurger();
         //play the drop in navigation
@@ -32,6 +34,8 @@ function hideShowMainNav() {
     } else {
         console.log("hide the menu")
         canYouSeeTheMenu = false;
+        //trigger the arrow
+        // arrowDirection();
         //turn the x into burger
         animateBurger();
         //get rid of drop in navigation
