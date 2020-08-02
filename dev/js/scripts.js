@@ -1,4 +1,5 @@
 // @codekit-prepend "main-nav/burger-mouse-events.js";
+// @codekit-prepend "main-nav/moible-burger-animation.js";
 // @codekit-prepend "main-nav/burger-animation.js";
 // @codekit-prepend "main-nav/nav-global.js";
 // @codekit-prepend "main-nav/burger-click.js";
@@ -10,6 +11,16 @@
 
 // A $( document ).ready() block.
 $( document ).ready(function() {
-    console.log( "change" );
-});
 
+    $("#show-form-btn").on("click", function(){
+       //console.log("button clicked");
+ 
+       // hide contact-button-section
+       $("#contact-button-section").hide();
+ 
+       // show form container
+       $("#form-container").show();
+ 
+    });
+ 
+ });

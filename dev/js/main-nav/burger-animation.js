@@ -18,6 +18,16 @@ burgerAnimationTimeline.to("#top-line",{duration:burgerAnimationSpeed, rotation:
                         .to("#right-arrow",{duration:burgerAnimationSpeed, alpha:0, rotation:0}, "burgerToX")
                         .to("#left-arrow",{duration:burgerAnimationSpeed, alpha:0, rotation:0}, "burgerToX");
 
+var upArrowToBurger = gsap.timeline({paused:true});
+upArrowToBurger.to("#top-line",{y:0},"backToBurger")
+                .to("#bottom-line",{y:0},"backToBurger")
+                .to("#middle-line",{alpha:1},"backToBurger")
+                .to("#burger",{rotation:0},"backToBurger")
+                .to("#up-right-arrow",{alpha:0},"backToBurger")
+                .to("#up-left-arrow",{alpha:0},"backToBurger")
+                .to("#down-right-arrow",{alpha:1},"backToBurger")
+                .to("#down-left-arrow",{alpha:1},"backToBurger");
+
 function animateBurger(){
     // check the  canYouSeeTheMenu bool valus
     if(canYouSeeTheMenu === true){
@@ -25,7 +35,7 @@ function animateBurger(){
         burgerAnimationTimeline.play();
     }else{
         // turn the x back into a burger
-        burgerAnimationTimeline.reverse();
+        upArrowToBurger.play();
     }
 }
 

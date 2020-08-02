@@ -25,10 +25,17 @@ function hideShowMainNav() {
     if (canYouSeeTheMenu === false) {
         console.log("show me the menu")
         canYouSeeTheMenu = true;
-        //trigger the arrow
-        // arrowDirection();
         //turn the burger into x
-        animateBurger();
+        // animateBurger();
+
+        if(burgerToArrowTimeline.progress() > 0){
+            //turn the burger into an X
+           // alert("dekstop animation");
+            animateBurger();
+        }else{
+            //alert("mobile animation");
+            mobileburgerAnimation();
+        }
         //play the drop in navigation
         mainNavTimeline.play()
     } else {
@@ -37,8 +44,28 @@ function hideShowMainNav() {
         //trigger the arrow
         // arrowDirection();
         //turn the x into burger
-        animateBurger();
+        // animateBurger();
+
+        if(burgerToArrowTimeline.progress() > 0){
+            //turn the burger into an X
+           // alert("dekstop animation");
+            animateBurger();
+        }else{
+           // alert("mobile animation");
+            mobileburgerAnimation();
+        }
+
         //get rid of drop in navigation
         mainNavTimeline.reverse()
+    }
+}
+
+var menuBackground = document.querySelector('#main-nav');
+
+window.onclick = function(event){
+
+    if(event.target == menuBackground){
+        
+        hideShowMainNav();
     }
 }
