@@ -28,9 +28,13 @@ function hideShowMainNav() {
         //turn the burger into x
         // animateBurger();
 
+        //console.log(burgerToArrowTimeline.progress() + "is the progress for the gsap timeline larger than 0 then its been played");
+
+        //alert(burgerToArrowTimeline.progress() + "is the progress for the gsap timeline larger than 0 then its been played");
+
         if(burgerToArrowTimeline.progress() > 0){
             //turn the burger into an X
-           // alert("dekstop animation");
+            //alert("dekstop animation");
             animateBurger();
         }else{
             //alert("mobile animation");
@@ -52,7 +56,7 @@ function hideShowMainNav() {
             animateBurger();
         }else{
            // alert("mobile animation");
-            mobileburgerAnimation();
+           mobileburgerAnimation();
         }
 
         //get rid of drop in navigation

@@ -15,8 +15,8 @@ gsap.set(".lines",{transformOrigin:"center"});
 burgerAnimationTimeline.to("#top-line",{duration:burgerAnimationSpeed, rotation:45}, "burgerToX")
                         .to("#bottom-line",{duration:burgerAnimationSpeed, rotation:-45}, "burgerToX")
                         .to("#middle-line",{duration:burgerAnimationSpeed, alpha:0}, "burgerToX")
-                        .to("#right-arrow",{duration:burgerAnimationSpeed, alpha:0, rotation:0}, "burgerToX")
-                        .to("#left-arrow",{duration:burgerAnimationSpeed, alpha:0, rotation:0}, "burgerToX");
+                        .to("#down-right-arrow",{duration:burgerAnimationSpeed, alpha:0, rotation:0}, "burgerToX")
+                        .to("#down-left-arrow",{duration:burgerAnimationSpeed, alpha:0, rotation:0}, "burgerToX");
 
 var upArrowToBurger = gsap.timeline({paused:true});
 upArrowToBurger.to("#top-line",{y:0},"backToBurger")
