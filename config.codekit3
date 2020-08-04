@@ -1029,6 +1029,17 @@
 		"oAP": "/deploy/instagram.html",
 		"oF": 2
 		},
+	"/dev/js/custom-nav.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "/dev/js/custom-nav-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
 	"/dev/js/fancybox.js": {
 		"bF": 0,
 		"ft": 64,

@@ -42,6 +42,7 @@ function hideShowMainNav() {
         }
         //play the drop in navigation
         mainNavTimeline.play()
+        customNavTimeline.play()
     } else {
         console.log("hide the menu")
         canYouSeeTheMenu = false;
@@ -61,6 +62,7 @@ function hideShowMainNav() {
 
         //get rid of drop in navigation
         mainNavTimeline.reverse()
+        // customNavTimeline.reverse()
     }
 }
 
