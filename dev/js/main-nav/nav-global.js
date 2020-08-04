@@ -23,46 +23,29 @@ function hideShowMainNav() {
     //$("#main-nav").toggle();
 
     if (canYouSeeTheMenu === false) {
-        console.log("show me the menu")
+       // console.log("show me the menu")
         canYouSeeTheMenu = true;
-        //turn the burger into x
-        // animateBurger();
 
-        //console.log(burgerToArrowTimeline.progress() + "is the progress for the gsap timeline larger than 0 then its been played");
-
-        //alert(burgerToArrowTimeline.progress() + "is the progress for the gsap timeline larger than 0 then its been played");
-
-        if(burgerToArrowTimeline.progress() > 0){
-            //turn the burger into an X
-            //alert("dekstop animation");
-            animateBurger();
-        }else{
-            //alert("mobile animation");
-            mobileburgerAnimation();
-        }
+        //play the annimation to make the down arrow an x
+        burgerAnimationTimeline.play("downArrowToX");
+       
         //play the drop in navigation
         mainNavTimeline.play()
+
+        //play the animation to make the text and logo slide in
         customNavTimeline.play()
     } else {
-        console.log("hide the menu")
+        //console.log("hide the menu")
         canYouSeeTheMenu = false;
-        //trigger the arrow
-        // arrowDirection();
-        //turn the x into burger
-        // animateBurger();
 
-        if(burgerToArrowTimeline.progress() > 0){
-            //turn the burger into an X
-           // alert("dekstop animation");
-            animateBurger();
-        }else{
-           // alert("mobile animation");
-           mobileburgerAnimation();
-        }
+        //play the annimation to make the down arrow a burger
+        burgerAnimationTimeline.play("upArrowToBurger");
 
         //get rid of drop in navigation
         mainNavTimeline.reverse()
-        // customNavTimeline.reverse()
+
+        //make the animation reverse so it can play again
+        customNavTimeline.reverse()
     }
 }
 
@@ -75,3 +58,19 @@ window.onclick = function(event){
         hideShowMainNav();
     }
 }
+
+function reportWindowSize() {
+    console.log("test");
+    if (canYouSeeTheMenu === false) {
+        console.log("can't see the main nav");
+        console.log($("#main-nav").outerHeight());
+        navHeight = $("#main-nav").outerHeight();
+        gsap.set("#main-nav", {
+            y: -navHeight
+        });
+    }
+}
+
+
+// add a listener to the window for everytime it's resized
+window.addEventListener('resize', reportWindowSize);
