@@ -5,6 +5,8 @@
 // @codekit-prepend "main-nav/nav-global.js";
 // @codekit-prepend "main-nav/burger-click.js";
 
+// @codekit-prepend "scroll-trigger/home.js";
+// @codekit-prepend "scroll-trigger/about.js";
 
 // @codekit-prepend "fancybox.js";
 // @codekit-prepend "tinyslider.js";

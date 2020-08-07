@@ -380,13 +380,13 @@ ul li {
 }
 
 .content-spacing {
-  margin-top: 30px;
-  margin-bottom: 40px;
+  padding-top: 30px;
+  padding-bottom: 40px;
 }
 @media (min-width: 1025px) {
   .content-spacing {
-    margin-top: 40px;
-    margin-bottom: 50px;
+    padding-top: 40px;
+    padding-bottom: 50px;
   }
 }
 
@@ -987,6 +987,7 @@ header div #burger-container #burger:hover #lines {
 ============= */
 footer {
   background-color: #743646;
+  position: relative;
 }
 footer div {
   display: grid;
@@ -1065,6 +1066,10 @@ footer div #footer-copyright p {
 /* =============
     Illustrations
 ============= */
+#home-illustrations {
+  background-color: white;
+  position: relative;
+}
 #home-illustrations div h1 {
   text-align: center;
   font-size: 1.875rem;
@@ -1150,6 +1155,7 @@ footer div #footer-copyright p {
   background-color: #DC9699;
   padding: 30px 0;
   margin-bottom: 0;
+  position: relative;
 }
 @media (min-width: 768px) {
   #home-contact {
