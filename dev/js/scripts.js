@@ -7,6 +7,7 @@
 
 // @codekit-prepend "scroll-trigger/home.js";
 // @codekit-prepend "scroll-trigger/about.js";
+// @codekit-prepend "scroll-trigger/portfolio.js";
 
 // @codekit-prepend "fancybox.js";
 // @codekit-prepend "tinyslider.js";

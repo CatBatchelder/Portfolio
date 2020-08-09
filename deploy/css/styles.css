@@ -1398,11 +1398,27 @@ footer div #footer-copyright p {
     images
 ============= */
 #portfolio-img {
+  position: relative;
   margin-bottom: 0;
 }
 #portfolio-img ul li img {
   object-fit: cover;
   width: 100vw;
+}
+#portfolio-img ul li li:nth-child(1) {
+  position: relative;
+}
+#portfolio-img ul li li:nth-child(2) {
+  position: relative;
+}
+#portfolio-img ul li li:nth-child(3) {
+  position: relative;
+}
+#portfolio-img ul li li:nth-child(4) {
+  position: relative;
+}
+#portfolio-img ul li li:nth-child(5) {
+  position: relative;
 }
 
 /* =============

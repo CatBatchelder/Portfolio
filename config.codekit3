@@ -1128,6 +1128,17 @@
 		"sC": 3,
 		"tS": 0
 		},
+	"/dev/js/scroll-trigger/portfolio.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "/dev/js/scroll-trigger/portfolio-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
 	"/dev/js/tinyslider.js": {
 		"bF": 0,
 		"ft": 64,

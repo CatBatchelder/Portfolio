@@ -9,6 +9,7 @@
 ============= */
 
 #portfolio-img {
+    position: relative;
     margin-bottom: 0;
     ul{
         li{
@@ -16,6 +17,28 @@
                 object-fit: cover;
                 width: 100vw;
             }
+
+            li:nth-child(1) {
+                position: relative;
+
+            }
+            li:nth-child(2) {
+                position: relative;
+
+            }
+            li:nth-child(3) {
+                position: relative;
+
+            }
+            li:nth-child(4) {
+                position: relative;
+
+            }
+            li:nth-child(5) {
+                position: relative;
+
+            }
+            
         }
     }
 }
