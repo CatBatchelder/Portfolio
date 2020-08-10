@@ -1048,6 +1048,7 @@ footer div #footer-copyright p {
   color: white;
   font-size: 0.625rem;
   padding-bottom: 10px;
+  padding-top: 30px;
 }
 @media (min-width: 768px) {
   footer div #footer-copyright p {

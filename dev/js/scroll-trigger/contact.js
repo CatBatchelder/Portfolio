@@ -12,7 +12,7 @@ contactSliderTimeline.from("#contact-name",{duration:.5, alpha:0, scaleX:0}, "st
 ScrollTrigger.create({
     animation: contactSliderTimeline,
     trigger: "#Contact-form",
-    markers: true,
+    //markers: true,
     start: "top 75%",
     end: "bottom 75%",
     toggleActions: "restart none none none"
