@@ -1399,7 +1399,6 @@ footer div #footer-copyright p {
 ============= */
 #portfolio-img {
   position: relative;
-  margin-bottom: 0;
 }
 #portfolio-img ul li img {
   object-fit: cover;
