@@ -1,34 +1,54 @@
 /* ========================
-    Paralax Pinning
+    sliding in
 ======================== */
-
-// gsap.to(".portfolio-heros",{
-//     // yPercent: -100, 
-//     // ease: "none",
-//     //stagger: 0.5,
-    
-//     scrollTrigger:{
-//     trigger:"#portfolio-img",
-//     pin: true,
-//     pinSpacing: false,
-//     markers:true,
-//     // start: "top 50",
-//     // end: "bottom 50"
-//     start: "top top",
-//       end: "+=300%"
-
-// }})
-
-// gsap.to(".panel:not(:last-child)", {
-//     yPercent: -100, 
-//     ease: "none",
-//     stagger: 0.5,
-//     scrollTrigger: {
-//       trigger: "#container",
-//       start: "top top",
-//       end: "+=300%",
-//       scrub: true,
-//       pin: true
-//     }
-//   });
   
+
+gsap.from("#portfolio-branding", {duration:1, alpha:0, xPercent:100,
+
+scrollTrigger:{
+    trigger:"#portfolio-branding",
+    start: "top 80%",
+    end: "bottom 80%"
+    //markers:true,
+    //id:"portfolio"
+}})
+gsap.from("#portfolio-photo", {duration:1, alpha:0, xPercent:-100,
+
+    scrollTrigger:{
+        trigger:"#portfolio-photo",
+        start: "top 80%",
+        end: "bottom 80%"
+        //markers:true
+    }})
+gsap.from("#portfolio-illustration", {duration:1, alpha:0, xPercent:100,
+
+     scrollTrigger:{
+            trigger:"#portfolio-illustration",
+            start: "top 80%",
+            end: "bottom 80%"
+            //markers:true
+        }})
+gsap.from("#portfolio-web", {duration:1, alpha:0, xPercent:-100,
+
+    scrollTrigger:{
+        trigger:"#portfolio-web",
+        start: "top 80%",
+        end: "bottom 80%"
+        //markers:true
+    }})
+gsap.from("#portfolio-print", {duration:1, alpha:0, xPercent:100,
+
+    scrollTrigger:{
+        trigger:"#portfolio-print",
+        start: "top 80%",
+        end: "bottom 80%"
+        //markers:true
+    }})
+gsap.from("#portfolio-type", {duration:1, alpha:0, xPercent:-100,
+
+    scrollTrigger:{
+        trigger:"#portfolio-type",
+        start: "top 80%",
+        end: "bottom 80%"
+        //markers:true
+    }})

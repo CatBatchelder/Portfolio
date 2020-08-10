@@ -21,7 +21,7 @@ gsap.to("#home-hero",{scrollTrigger:{
 
 var logosAnimationTimeLine = gsap.timeline({});
 
-logosAnimationTimeLine.from(".logos",{duration:.5, alpha:0, stagger:0.25, yPercent: 200});
+logosAnimationTimeLine.from(".logos",{duration:.25, alpha:0, stagger:0.12, yPercent: 200});
 
 ScrollTrigger.create({
     animation: logosAnimationTimeLine,
