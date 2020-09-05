@@ -1514,6 +1514,54 @@ footer div #footer-copyright p {
     title
 ============= */
 /* =============
+    Llama
+============= */
+#web-llama div aside {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#web-llama div aside img {
+  object-fit: cover;
+  width: 100%;
+  height: auto;
+}
+#web-llama div h3 {
+  text-align: center;
+}
+#web-llama div h3 a {
+  text-decoration: none;
+  color: #743646;
+}
+#web-llama div h3 a:hover {
+  color: #DC9699;
+}
+
+/* =============
+    draw
+============= */
+#web-draw div aside {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#web-draw div aside img {
+  object-fit: cover;
+  width: 100%;
+  height: auto;
+}
+#web-draw div h3 {
+  text-align: center;
+}
+#web-draw div h3 a {
+  text-decoration: none;
+  color: #743646;
+}
+#web-draw div h3 a:hover {
+  color: #DC9699;
+}
+
+/* =============
     Annapolis
 ============= */
 #web-annapolis div aside {
