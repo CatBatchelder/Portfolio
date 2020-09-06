@@ -59,6 +59,14 @@
 		"oAP": "/deploy/img/about/CatBatchelder-Resume.pdf",
 		"oF": 0
 		},
+	"/deploy/img/about/CatBatchelder_Resume.pdf": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/about/CatBatchelder_Resume.pdf",
+		"oF": 0
+		},
 	"/deploy/img/about/headshot.png": {
 		"ft": 32768,
 		"iS": 34286,
