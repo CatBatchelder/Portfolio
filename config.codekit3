@@ -67,6 +67,14 @@
 		"oAP": "/deploy/img/about/CatBatchelder_Resume.pdf",
 		"oF": 0
 		},
+	"/deploy/img/about/CatGBatchelder_Resume2020.pdf": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/about/CatGBatchelder_Resume2020.pdf",
+		"oF": 0
+		},
 	"/deploy/img/about/headshot.png": {
 		"ft": 32768,
 		"iS": 34286,
@@ -806,6 +814,17 @@
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/deploy/img/portfolio/web_4.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/deploy/img/portfolio/web_5.jpeg": {
+		"ft": 16384,
+		"iS": 83695,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/portfolio/web_5.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,

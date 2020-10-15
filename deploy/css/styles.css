@@ -1514,6 +1514,30 @@ footer div #footer-copyright p {
     title
 ============= */
 /* =============
+    ver
+============= */
+#web-ver div aside {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#web-ver div aside img {
+  object-fit: cover;
+  width: 100%;
+  height: auto;
+}
+#web-ver div h3 {
+  text-align: center;
+}
+#web-ver div h3 a {
+  text-decoration: none;
+  color: #743646;
+}
+#web-ver div h3 a:hover {
+  color: #DC9699;
+}
+
+/* =============
     Llama
 ============= */
 #web-llama div aside {
