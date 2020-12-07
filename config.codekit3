@@ -488,6 +488,40 @@
 		"q": 100,
 		"rq": 75
 		},
+	"/deploy/img/portfolio/miracles.mov": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/portfolio/miracles.mov",
+		"oF": 0
+		},
+	"/deploy/img/portfolio/miracles1.jpg": {
+		"ft": 16384,
+		"iS": 46535,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/portfolio/miracles1.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
+		},
+	"/deploy/img/portfolio/miracles2.jpg": {
+		"ft": 16384,
+		"iS": 60485,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/portfolio/miracles2.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
+		},
 	"/deploy/img/portfolio/photo/org_1.jpg": {
 		"ft": 16384,
 		"iS": 39594,
@@ -866,6 +900,32 @@
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/deploy/img/portfolio/s3.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
+		},
+	"/deploy/img/portfolio/shostakovich.jpg": {
+		"ft": 16384,
+		"iS": 813907,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/portfolio/shostakovich.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
+		},
+	"/deploy/img/portfolio/shostakovich_2.jpg": {
+		"ft": 16384,
+		"iS": 147626,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/portfolio/shostakovich_2.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,

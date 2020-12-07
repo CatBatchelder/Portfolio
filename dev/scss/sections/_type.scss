@@ -5,6 +5,133 @@
 #type-title {}
 
 /* =============
+    Miracles Animated
+============= */
+
+#type-miracles-animated {
+    div {
+        h2 {}
+
+        aside {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            img {
+                object-fit: cover;
+                width: 100%;
+
+            }
+
+            
+        }
+        section{
+            h3{
+                text-align: center;
+                // text-decoration: none;
+                // color: $red;
+                a{
+                    text-decoration: none;
+                    color: $red;
+                
+                } 
+    
+            a:hover{
+                color: $pink;
+                }
+            }
+        }
+    }
+
+}
+
+/* =============
+    Miracles Static
+============= */
+
+#type-miracles {
+    div {
+        h2 {}
+
+        section{
+            h3{
+                text-align: center;
+                // text-decoration: none;
+                // color: $red;
+                a{
+                    text-decoration: none;
+                    color: $red;
+                
+                } 
+    
+            a:hover{
+                color: $pink;
+                }
+            }
+        }
+
+        section {
+            ul {
+                display: grid;
+                gap: 20px;
+
+                @include md {
+                    grid-template-columns: 50% auto;
+                    grid-template-areas: "front back";
+                }
+
+                li {
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+
+                    img {
+                        object-fit: cover;
+                        width: 100%;
+                    }
+                }
+
+                li:nth-child(1) {
+                    @include md {
+                        grid-area: front;
+                    }
+
+                }
+
+                li:nth-child(2) {
+                    @include md {
+                        grid-area: back;
+                    }
+                }
+            }
+        }
+    }
+}
+
+/* =============
+    shostakovich
+============= */
+
+#type-shostakovich {
+    div {
+        h2 {}
+
+        aside {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            img {
+                object-fit: cover;
+                width: 100%;
+
+            }
+        }
+
+    }
+}
+
+/* =============
     Caslon
 ============= */
 

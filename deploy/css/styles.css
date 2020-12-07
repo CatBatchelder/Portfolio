@@ -446,6 +446,20 @@ body {
   }
 }
 
+.description-text {
+  text-align: center;
+  color: #6A8AA7;
+  font-size: 1.125rem;
+  font-weight: 400;
+}
+@media (min-width: 768px) {
+  .description-text {
+    font-size: 1.25rem;
+    margin-left: 100px;
+    margin-right: 100px;
+  }
+}
+
 /* =============
     Buttons
 ============= */
@@ -1649,6 +1663,85 @@ footer div #footer-copyright p {
 /* =============
     title
 ============= */
+/* =============
+    Miracles Animated
+============= */
+#type-miracles-animated div aside {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#type-miracles-animated div aside img {
+  object-fit: cover;
+  width: 100%;
+}
+#type-miracles-animated div section h3 {
+  text-align: center;
+}
+#type-miracles-animated div section h3 a {
+  text-decoration: none;
+  color: #743646;
+}
+#type-miracles-animated div section h3 a:hover {
+  color: #DC9699;
+}
+
+/* =============
+    Miracles Static
+============= */
+#type-miracles div section h3 {
+  text-align: center;
+}
+#type-miracles div section h3 a {
+  text-decoration: none;
+  color: #743646;
+}
+#type-miracles div section h3 a:hover {
+  color: #DC9699;
+}
+#type-miracles div section ul {
+  display: grid;
+  gap: 20px;
+}
+@media (min-width: 768px) {
+  #type-miracles div section ul {
+    grid-template-columns: 50% auto;
+    grid-template-areas: "front back";
+  }
+}
+#type-miracles div section ul li {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#type-miracles div section ul li img {
+  object-fit: cover;
+  width: 100%;
+}
+@media (min-width: 768px) {
+  #type-miracles div section ul li:nth-child(1) {
+    grid-area: front;
+  }
+}
+@media (min-width: 768px) {
+  #type-miracles div section ul li:nth-child(2) {
+    grid-area: back;
+  }
+}
+
+/* =============
+    shostakovich
+============= */
+#type-shostakovich div aside {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#type-shostakovich div aside img {
+  object-fit: cover;
+  width: 100%;
+}
+
 /* =============
     Caslon
 ============= */
