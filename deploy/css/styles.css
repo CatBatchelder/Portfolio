@@ -1439,6 +1439,65 @@ footer div #footer-copyright p {
     title
 ============= */
 /* =============
+    Coingo
+============= */
+#branding-coingo div ul {
+  display: grid;
+  grid-template-columns: 100%;
+  gap: 20px;
+}
+@media (min-width: 768px) {
+  #branding-coingo div ul {
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-areas: ". logo horz ." "card stat stat atm" ". video video .";
+  }
+}
+#branding-coingo div ul li img {
+  object-fit: cover;
+  width: 100%;
+  height: auto;
+}
+#branding-coingo div ul li video {
+  width: 100% !important;
+  height: auto !important;
+}
+@media (min-width: 1025px) {
+  #branding-coingo div ul li video {
+    width: 50%;
+  }
+}
+@media (min-width: 768px) {
+  #branding-coingo div ul li:nth-child(1) {
+    grid-area: logo;
+  }
+}
+@media (min-width: 768px) {
+  #branding-coingo div ul li:nth-child(2) {
+    grid-area: horz;
+  }
+}
+@media (min-width: 768px) {
+  #branding-coingo div ul li:nth-child(3) {
+    grid-area: card;
+  }
+}
+@media (min-width: 768px) {
+  #branding-coingo div ul li:nth-child(4) {
+    grid-area: stat;
+  }
+}
+@media (min-width: 768px) {
+  #branding-coingo div ul li:nth-child(5) {
+    grid-area: atm;
+  }
+}
+@media (min-width: 768px) {
+  #branding-coingo div ul li:nth-child(6) {
+    grid-area: video;
+  }
+}
+
+/* =============
     Ron Jon
 ============= */
 #branding-ronjon div ul {
@@ -1448,8 +1507,8 @@ footer div #footer-copyright p {
 }
 @media (min-width: 768px) {
   #branding-ronjon div ul {
-    grid-template-columns: 50% auto;
-    grid-template-areas: "logo logo" "card van" "video video";
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-areas: "logo logo logo logo" "card card van van" ". video video .";
   }
 }
 #branding-ronjon div ul li img {
