@@ -795,6 +795,94 @@
 		"q": 100,
 		"rq": 75
 		},
+	"/deploy/img/portfolio/process/miracles_process1.pdf": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/portfolio/process/miracles_process1.pdf",
+		"oF": 0
+		},
+	"/deploy/img/portfolio/process/miracles_process2.pdf": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/portfolio/process/miracles_process2.pdf",
+		"oF": 0
+		},
+	"/deploy/img/portfolio/process/miracles_process3.pdf": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/portfolio/process/miracles_process3.pdf",
+		"oF": 0
+		},
+	"/deploy/img/portfolio/process/miracles_process4.pdf": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/portfolio/process/miracles_process4.pdf",
+		"oF": 0
+		},
+	"/deploy/img/portfolio/process/miracles_process5.pdf": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/portfolio/process/miracles_process5.pdf",
+		"oF": 0
+		},
+	"/deploy/img/portfolio/process/miracles_process6.pdf": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/portfolio/process/miracles_process6.pdf",
+		"oF": 0
+		},
+	"/deploy/img/portfolio/process/shostakovich_process1.pdf": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/portfolio/process/shostakovich_process1.pdf",
+		"oF": 0
+		},
+	"/deploy/img/portfolio/process/shostakovich_process2.pdf": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/portfolio/process/shostakovich_process2.pdf",
+		"oF": 0
+		},
+	"/deploy/img/portfolio/process/shostakovich_process3.pdf": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/portfolio/process/shostakovich_process3.pdf",
+		"oF": 0
+		},
+	"/deploy/img/portfolio/process/shostakovich_process4.pdf": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/portfolio/process/shostakovich_process4.pdf",
+		"oF": 0
+		},
+	"/deploy/img/portfolio/process/shostakovich_process5.pdf": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/portfolio/process/shostakovich_process5.pdf",
+		"oF": 0
+		},
 	"/deploy/img/portfolio/r1.jpg": {
 		"ft": 16384,
 		"iS": 29051,
@@ -945,6 +1033,14 @@
 		"ou": "lpckwebp-none",
 		"q": 100,
 		"rq": 75
+		},
+	"/deploy/img/portfolio/vw-dash.mov": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/portfolio/vw-dash.mov",
+		"oF": 0
 		},
 	"/deploy/img/portfolio/web-design.jpg": {
 		"ft": 16384,
