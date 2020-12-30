@@ -1935,6 +1935,19 @@ footer div #footer-copyright p {
     grid-area: slider;
   }
 }
+#photo-portrait div h3 {
+  text-align: center;
+  color: #6A8AA7;
+  font-size: 1.125rem;
+  font-weight: 400;
+}
+@media (min-width: 768px) {
+  #photo-portrait div h3 {
+    font-size: 1.25rem;
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+}
 #photo-portrait div section .my-slider div img {
   object-fit: cover;
   width: 100%;
@@ -1963,6 +1976,19 @@ footer div #footer-copyright p {
 @media (min-width: 768px) {
   #photo-org div {
     grid-area: org;
+  }
+}
+#photo-org div h3 {
+  text-align: center;
+  color: #6A8AA7;
+  font-size: 1.125rem;
+  font-weight: 400;
+}
+@media (min-width: 768px) {
+  #photo-org div h3 {
+    font-size: 1.25rem;
+    margin-left: 0px;
+    margin-right: 0px;
   }
 }
 #photo-org div section .my-slider-2 div img {

@@ -16,10 +16,25 @@
     div {
         @include md {
             grid-area: slider;
-        }  
+        }
+
+        h3 {
+
+            text-align: center;
+            color: $light-blue;
+            font-size: rem-calc(18);
+            font-weight: 400;
+
+            @include md {
+                font-size: rem-calc(20);
+                margin-left: 0px;
+                margin-right: 0px;
+            }
+
+        }
 
         section {
-        
+
 
             .my-slider {
                 div {
@@ -57,7 +72,22 @@
     div {
         @include md {
             grid-area: org;
-        }  
+        }
+
+        h3 {
+
+            text-align: center;
+            color: $light-blue;
+            font-size: rem-calc(18);
+            font-weight: 400;
+
+            @include md {
+                font-size: rem-calc(20);
+                margin-left: 0px;
+                margin-right: 0px;
+            }
+
+        }
 
         section {
 
